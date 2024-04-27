@@ -17,7 +17,7 @@ Although I did create a few assets, most graphics were made by these wonderful c
 - NEWS
 - Herilind
 - Omega Shambler
-- 
+
 More precise credit on the card art is listed in the base cards.csv data files.
 
 ## How to install
