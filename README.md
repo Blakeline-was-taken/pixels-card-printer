@@ -17,6 +17,7 @@ Although I did create a few assets, most graphics were made by these wonderful c
 - NEWS
 - Herilind
 - Omega Shambler
+- 
 More precise credit on the card art is listed in the base cards.csv data files.
 
 ## How to install
@@ -28,9 +29,9 @@ Once that's done, you're pretty much good to go! Although, you obviously do need
 ### Exporting cards, sigils and/or traits
 In order to launch the program, simply run the main.py file. Here, you will get to choose what you want to export (cards, sigils or traits), and which of these you want it to generate.
 
-In order to select the items you wish to export, you must enter their name. You can also choose to export an array of items, by putting two names separated by a colon, which will also output every item between the two (in the order they are placed in the data file).
+In order to select the items you wish to export, you must enter their name. You can also choose to export an array of items, by putting two names separated by a colon, which will also output every item between the two (in the order they are placed in the data file). For example: `Bullfrog:Cat`
 
-You can export multiple items and array of items simply by separating them with commas.
+You can export multiple items and array of items simply by separating them with commas. For exampele: `Adder,Bee:Squirrel,Bullfrog,Axolotl:Flying Ant,Wolf:Grizzly,Cat`
 
 Names are case-insensitive but spelling, spaces and special characters do matter.
 
