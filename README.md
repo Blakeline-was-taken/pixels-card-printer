@@ -4,19 +4,20 @@ Although I did create a few assets, most graphics were made by these wonderful c
 - Pixel Profligate
 - Murigen
 - Desaft
-- Answearing Machine
-- Ixams
-- syntaxeversion
-- Synthia
-- Nevernamed
+- Herilind
 - Bluemem
-- Prof. Eggnog
+- Answearing Machine
+- Nevernamed
+- syntaxeversion
+- Ixams
 - Yoyo
-- Lilith
 - PaperPyro
 - NEWS
-- Herilind
+- Lilith
+- Merson
+- Synthia
 - Omega Shambler
+- Prof. Eggnog
 
 More precise credit on the card art is listed in the base cards.csv data files.
 
@@ -87,7 +88,7 @@ Not yet implemented. Just stick to Common, Uncommon, Rare, Side deck and Talking
 ## Making custom costs
 There is currently no way to do it without adding a bit of code to the program yourself. If you're up for that, here is the procedure :
 
-First, the simple part. Add a folder with your costs's name in `assets/costs`, and drop all the graphical assets you will need inside.
+First, the simple part. Add a folder with your costs's name in `assets/costs`, and drop all the graphical assets you will need inside. They will need to be upscaled by 1000% (one pixel becomes a 10x10 pixel).
 
 Second, go into `model/costs.py`. Add a class for your cost, containing an `__init__` method and a `getcostImage(self, temple: str) -> Image` method.
 
