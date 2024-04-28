@@ -52,7 +52,7 @@ Simply add new rows to the `cards.csv` file (Or replace its rows by your own car
 These files can be found (and have to be located) in the `data` folder.
 
 ### Adding the art
-You need to add the raw art of your card to the `assets/card_art` folder. It will be pasted on the cardback when generating the card. For custom sigils, also add the sigil image to the `assets/sigils`.
+You need to add the raw art of your card to the `assets/card_art` folder. It will be pasted on the cardback when generating the card. For custom sigils, also add the sigil image to the `assets/sigils`. If these cannot be colored though (because they already have color in them), be sure to also add the outline of this sigil. Its file name will be the same, with "_outline" at the end.
 
 The files, whether they are card art or sigil art, need to bear the name of the card/sigil but with :
 - No spaces
