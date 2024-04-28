@@ -5,7 +5,7 @@ import traceback
 from csv import DictReader
 from tqdm import tqdm
 from PIL import Image
-from model import cards, sigils, config, logging
+from model import cards, sigils, costs, config, logging
 
 CARDS_FILE_PATH = config["cards_file_path"]
 SIGILS_FILE_PATH = config["sigils_file_path"]
@@ -230,7 +230,8 @@ try:
         if config["exported_traitline"] != "None":
             temple = config["exported_traitline"]
             if temple in cards.TEMPLES:
-                traitline = Image.open(f"assets/cardbacks/Traitline{temple}.png").convert("RGBA")
+                traitlines = Image.open(f"assets/cardbacks/Traitlines.png").convert("RGBA")
+                traitline = costs.get_temple_variant(traitlines, temple)
                 traitline = traitline.resize((traitline.width * 10, traitline.height * 10), Image.NEAREST)
             color = cards.TEXT_COLORS[temple]
         else:
