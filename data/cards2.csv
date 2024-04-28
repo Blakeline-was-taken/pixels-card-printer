@@ -1,0 +1,470 @@
+Card Name,Temple,Tier,Cost,Power,Health,Sigils,Token,Traits,Tribes,Flavor Text,Credit
+Cat with a Gun,Tech,Uncommon,3 max + 8 energy,2,3,"Sniper, Energy Gun, Boneless",,,Feline Bot,"You think this is funny, don't you?",Answearing Machine
+Bee,Beast,Side Deck,free,1,1,"Airborne, Brittle",,,Insect,Unassuming but determined pests.,Pixel Profligate
+Krill,Beast,Side Deck,free,0,1,Waterborne,,,Fish,One in a krillion.,Murigen
+Squirrel,Beast,Side Deck,free,0,1,,,,Vermin,"Small, frail, but ever so useful.",Pixel Profligate
+Beehive,Beast,Common,free,0,3,"Bees Within, Bloodless",Bee,,Insect,"Nonthreatening, if you leave it be.",Pixel Profligate
+Lil' Frog,Beast,Common,free,0,1,Burrower,,,Amphibian,Just a little guy.,Pixel Profligate
+Rabbit,Beast,Common,free,0,1,,,,Vermin,What purpose could it serve?,Pixel Profligate
+Tadpole,Beast,Common,free,0,1,"Fledgling, Waterborne",Bullfrog,,Amphibian,"Small, frail, and pathetic... for now.",Pixel Profligate
+Axolotl,Beast,Common,1 blood,1,1,Convalesce,,,Amphibian,A friend-shaped regenerator.,Pixel Profligate
+Bullfrog,Beast,Common,1 blood,1,3,Mighty Leap,,,Amphibian,"Seemingly lazy, but ever watchful.",Pixel Profligate
+Catfish,Beast,Common,1 blood,0,2,Sharp Quills,,,Fish Conduit,Quite a... shocking specimen.,Murigen
+Crab,Beast,Common,1 blood,1,1,Armored,,,,"Tiny, scuttling, but resilient stature.",Murigen
+Elk Fawn,Beast,Common,1 blood,1,1,"Sprinter, Fledgling",Elk,,Hooved,"Young, ambitious, and scared.",Pixel Profligate
+Flying Ant,Beast,Common,1 blood,0,1,"Airborne, Colony",,,Ant Insect,"A pest alone, but devastating in swarm.",Pixel Profligate
+Kingfisher,Beast,Common,1 blood,1,1,"Airborne, Waterborne",,,Avian,"A swift, slippery hunter.",Pixel Profligate
+Mantis,Beast,Common,1 blood,1,1,Bifurcated Strike,,,Insect,A slight incarnation of terror.,Pixel Profligate
+Mirror Tentacle,Beast,Common,1 blood,X,3,Facsimile,,,Tentacle,Curious...,Pixel Profligate
+Mole,Beast,Common,1 blood,0,4,"Burrower, Bone Digger",,,Vermin,"Blind, but seemingly omnipresent.",Pixel Profligate
+Piranha,Beast,Common,1 blood,1,1,"Aquanaut, Swarm, Bloodlust",,,Fish,Vicious pack-hunters of the rivers.,Ixams
+Porcupine,Beast,Common,1 blood,1,2,Sharp Quills,,,Vermin,"An ornery, ever-annoying rodent.",Pixel Profligate
+Raccoon,Beast,Common,1 blood,1,2,Scavenger,,,,A scrappy little gatherer.,Pixel Profligate
+Raven Egg,Beast,Common,1 blood,0,2,Fledgling,Raven,,Avian,No less conniving in incubation.,Pixel Profligate
+Ray,Beast,Common,1 blood,1,1,Waterborne,,,Fish Conduit,It makes its own electrical surges.,syntaxevasion
+Ringworm,Beast,Common,1 blood,0,1,,,,Insect,"Resoundingly pointless, with little use.",Pixel Profligate
+River Otter,Beast,Common,1 blood,1,1,Waterborne,,,,"Elusive, but not very menacing.",Pixel Profligate
+Salamander,Beast,Common,1 blood,1,2,Poisonous,,,Amphibian,Just a touch could be deadly.,Pixel Profligate
+Skink,Beast,Common,1 blood,1,2,Loose Tail,Wriggling Tail,,Reptile,It is trying to evade death at any cost.,Pixel Profligate
+Skunk,Beast,Common,1 blood,0,3,Stinky,,,,A horrid stench to keep predators away.,Pixel Profligate
+Sparrow,Beast,Common,1 blood,1,3,Airborne,,,Avian,"Meek and feeble, yes, but ever so useful.",Pixel Profligate
+Squirrel Ball,Beast,Common,1 blood,0,3,Squirrel Shedder,,,Vermin,"An odd, almost unnatural behavior.",Pixel Profligate
+Stoat,Beast,Common,1 blood,1,3,,,,Vermin,"A lowly, but ever noble creature.",Pixel Profligate
+Tick,Beast,Common,1 blood,1,1,"Bloodsucker, Hearty Offering",,,Insect,A minor problem... if not ignored.,Pixel Profligate
+Warren,Beast,Common,1 blood,0,2,"Rabbit Hole, Rabbit Soul",Rabbit,,,A bountiful pit of hares.,Pixel Profligate
+Wolf Cub,Beast,Common,1 blood,1,2,Fledgling,Wolf,,Canine,"An ambitious predator, needing only time.",Pixel Profligate
+Worker Ant,Beast,Common,1 blood,0,2,Colony,,,Ant Insect,"Weak alone, but overwhelming in force.",Pixel Profligate
+Adder,Beast,Common,2 blood,2,2,Touch of Death,,,Reptile,"Always lethal, the caustic adder.",Pixel Profligate
+Beaver,Beast,Common,2 blood,1,4,Dam Builder,,,Vermin,An industrious creature.,Pixel Profligate
+Bell Tentacle,Beast,Common,2 blood,0,2,Bell Ringer,,,Tentacle,Interesting...,Pixel Profligate
+Bloodhound,Beast,Common,2 blood,2,3,Guardian,,,Canine Hound,A fiercely loyal companion.,Pixel Profligate
+Crocodile,Beast,Common,2 blood,2,2,"Aquanaut, Piercing, Bloodlust",,,Reptile,The force of its bite is inescapable.,Ixams
+Dire Wolf Pup,Beast,Common,2 blood,1,2,"Fledgling, Bone Digger",Dire Wolf,,Canine,Sharpens its' teeth on scounged bones.,Pixel Profligate
+Elk,Beast,Common,2 blood,2,4,Sprinter,,,Hooved,"Hearty of form, but flighty of nature.",Pixel Profligate
+Field Mice,Beast,Common,2 blood,2,1,Fecundity,,,Vermin,"Where there is one, another is not far.",Pixel Profligate
+Fox,Beast,Common,2 blood,1,3,"Side Hustle, Sprinter",,,Canine,"A skittish, but cunning predator.","Murigen, Ixams"
+Hand Tentacle,Beast,Common,2 blood,X,2,Strong Hand,,,Tentacle,Strange...,Pixel Profligate
+Hawk,Beast,Common,2 blood,3,1,"Airborne, Aquanaut",,,Avian,A violently efficient bird of prey.,Pixel Profligate
+Leucochloridium,Beast,Common,2 blood,0,4,"Green Gem, Taunt",,,,Drawing the eyes of hungry beasts.,Synthia
+Mud Turtle,Beast,Common,2 blood,2,2,Armored,,,Reptile,"A frail turtle, protected by its shell.",Pixel Profligate
+Octopus,Beast,Common,2 blood,2,1,Evasion,,,,An ingenious escape artist.,Murigen
+Pronghorn,Beast,Common,2 blood,1,3,"Sprinter, Bifurcated Strike",,,Hooved,"Oddly sadistic, this venerable beast.",Pixel Profligate
+Rat King,Beast,Common,2 blood,2,1,Bone King,,,Noble Vermin,"Tragic royalty, destined to crumble.",Pixel Profligate
+Raven,Beast,Common,2 blood,2,3,Airborne,,,Avian,"Horribly clever, this blight of a bird is.",Pixel Profligate
+River Snapper,Beast,Common,2 blood,1,6,Bastion,,,Reptile,Stalwart in the face of adversity.,Pixel Profligate
+Wild Bull,Beast,Common,2 blood,3,2,Rampager,,,Hooved,Little can stop this rampaging brute.,Pixel Profligate
+Wolf,Beast,Common,2 blood,3,2,,,,Canine,A proud and ferocious contender.,Pixel Profligate
+Blue Whale,Beast,Common,3 blood,1,7,"Regurgitate, Aquanaut",,,Fish,A massive stomach for a big appetite.,"Nevernamed, Murigen"
+Bullet Ant,Beast,Common,2 blood,1,1,"Double Strike, Touch of Death",,,Ant Insect,A horrifyingly efficient pest.,Murigen
+Dire Wolf,Beast,Common,3 blood,2,3,"Double Strike, Bone Digger",,,Canine,"Truly unrelenting, this terrifying canine.",Pixel Profligate
+Great White,Beast,Common,3 blood,4,3,"Ravenous, Waterborne",,,Fish,Go fish.,Pixel Profligate
+Grizzly,Beast,Common,3 blood,3,5,Aquanaut,,,,Its form speaks enough of its efficacy.,Pixel Profligate
+Wriggling Tail,Beast,Common,1 bone,0,2,,,,Reptile,It's hard to call it cowardly...,Pixel Profligate
+Dam,Beast,Common,2 bones,0,2,"Bastion, Bloodless",,,,The hard work of an industrious beast.,Pixel Profligate
+Mealworm,Beast,Common,2 bones,0,2,Morsel,,,Insect,Does your mouth not water at the sight?,Pixel Profligate
+Opossum,Beast,Common,2 bones,1,1,Scavenger,,,Vermin,"Resourceful, weak, but endearing.",Pixel Profligate
+Bat,Beast,Common,3 bones,2,1,Airborne,,,Bat Vermin,"A minor, meddlesome terror.",Pixel Profligate
+Cicada,Beast,Common,3 bones,0,1,"Annoying, Fecundity",,,Insect,Its incessant buzz brought insanity.,Pixel Profligate
+Coyote,Beast,Common,3 bones,2,1,Bone Leech,,,Canine,A meager but dangerous scavenger.,Pixel Profligate
+Hornet,Beast,Common,4 bones,1,2,"Airborne, Dive Bomb",,,Insect,Determined to inflict its aggression.,Murigen
+Alpha,Beast,Common,5 bones,1,2,Leader,,,Canine,"A venerable leader, emboldening others.",Pixel Profligate
+Corpse Maggots,Beast,Common,5 bones,1,2,Corpse Eater,,,Insect,"Always inevitable, emerging from death.",Pixel Profligate
+Rattler,Beast,Common,5 bones,3,1,,,,Reptile,"Brittle, if you can survive its bite.",Pixel Profligate
+Wolverine,Beast,Common,5 bones,1,3,Bloodlust,,,,"A vicious beast, bathed in blood.",Pixel Profligate
+Turkey Vulture,Beast,Common,8 bones,3,3,Airborne,,,Avian,A horrid tyrant upon the skies.,Pixel Profligate
+Black Goat,Beast,Uncommon,1 blood,0,1,Worthy Sacrifice,,,Hooved,"A true sacrifice, despite all the blood.",Pixel Profligate
+Cat,Beast,Uncommon,1 blood,0,1,Nine Lives,Undead Cat,,,"It may not die, but it does feel the pain.",Pixel Profligate
+Rooster,Beast,Uncommon,1 blood,2,2,"Annoying, Sprinter",,,Avian,Picking fights with everything.,Ixams
+Strange Frog,Beast,Uncommon,1 blood,0,2,"Mighty Leap, Deathtrap, Bloodless",,,Amphibian Machine,A curious gadget in the shape of a beast.,Pixel Profligate
+Ant Queen,Beast,Uncommon,2 blood,1,3,Ant Spawner,,,Noble Ant Insect,"Regal, royal, and a mother of pests.",Pixel Profligate
+Cane Toad,Beast,Uncommon,2 blood,1,5,"Mighty Leap, Poisonous",,,Amphibian,"An ancient, voracious specimen.",Pixel Profligate
+Magpie,Beast,Uncommon,2 blood,1,1,"Hoarder, Airborne",,,Avian,A collector of trinkets and trash alike.,Pixel Profligate
+Pack Mule,Beast,Uncommon,2 blood,0,4,"Sprinter, Loaded",,,Hooved,"Defenseless, but well-stocked.",Pixel Profligate
+Red Hart,Beast,Uncommon,2 blood,X,2,"Sprinter, Spilt Blood",,,Hooved,"A sanguine beast, doused in blood.",Pixel Profligate
+Salmon,Beast,Uncommon,2 blood,2,1,"Waterborne, Sprinter",,,Fish,Expectedly slippery. Surprisingly strong.,Pixel Profligate
+Lammergier,Beast,Uncommon,3 blood,X,4,"Heavy Wings, Scattered Bones",,,Avian,A horrific bird with a peculiar diet.,Pixel Profligate
+Moose Buck,Beast,Uncommon,3 blood,2,7,"Hefty, Mighty Leap",,,Hooved,A towering and ever-powerful beast.,Pixel Profligate
+Cockroach,Beast,Uncommon,4 bones,1,1,"Unkillable, Boneless",,,Insect,"An immortal, persistent nuisance.",Pixel Profligate
+Geck,Beast,Rare,free,1,1,,,,Reptile,"Uninspiring, but charming despite it all.",Pixel Profligate
+Hrokkall,Beast,Rare,1 blood,1,1,"Waterborne, Overclocked",,,Fish,"Vicious in looks, but frail in nature.",Pixel Profligate
+Mantis God,Beast,Rare,1 blood,1,1,Trifurcated Strike,,,Insect,A perfect incarnation of terror.,Pixel Profligate
+Mole Man,Beast,Rare,1 blood,0,6,"Burrower, Mighty Leap, Bone Digger",,,Vermin Cryptid,"An unyielding, ultimate defense.",Pixel Profligate
+Amalgam,Beast,Rare,2 blood,3,3,Nameless,,,,Amalgam is all.,Pixel Profligate
+Child 13,Beast,Rare,1 blood,0,1,"Many Lives, Starving Hemanation",,,Hooved Cryptid,"Left abandoned, cursed, and hungry.",Pixel Profligate
+Great Kraken,Beast,Rare,1 blood,1,1,"Waterborne, Tentaclefull",,,,It just wants love.,Pixel Profligate
+Hodag,Beast,Rare,2 blood,1,3,"Bloodlust, Bloodsucker",,,Cryptid,"A fearsome, hellacious creature.",Pixel Profligate
+Ouroboros,Beast,Rare,2 blood,2,2,Unkillable,,,Reptile Cryptid,It will always return.,Pixel Profligate
+Pack Rat,Beast,Rare,2 blood,2,2,Trinket Bearer,,,Vermin,A prudent rat bearing trinkets.,Pixel Profligate
+Wendigo,Beast,Rare,2 blood,3,2,"Corpse Eater, Ravenous",,,Cryptid,A ravenous beast with insatiable hunger.,Pixel Profligate
+White Whale,Beast,Rare,3 blood,2,7,"Regurgitate, Piercing, Aquanaut",,,Fish,Whalers gone mad at the mere sight.,"Nevernamed, Murigen"
+Urayuli,Beast,Rare,4 blood,7,7,Sacrifices must be made,,,Cryptid,This level of brutality needs no words.,Pixel Profligate
+Amoeba,Beast,Rare,2 bones,1,2,Amorphous,,,,"Always different, ever-changing.",PIxel Profligate
+Jackrabbit,Beast,Talking,1 blood,0,3,"Rabbit Hole, Prism Gem, Battery Bearer, Bone Digger",,,Vermin,"""Ah, young one! A pleasure to see you!""",Murigen
+Stunted Wolf,Beast,Talking,1 blood,2,2,,,,Mox Canine,"""Careful, now. Use me wisely.""",Pixel Profligate
+The Stoat,Beast,Talking,1 blood,1,3,Battery Bearer,,,Vermin,"""Yep, it's me. Nice topdeck.""",Pixel Profligate
+Conceited Cat,Beast,Talking,2 blood,1,1,"Annoying, Many Lives, Humgry",,,,"""You didn't need that card, right?""",Answearing Machine
+Cormorant,Beast,Talking,2 blood,2,2,"Airborne, Falconry",,,Avian,"""You play. I fish.""",Pixel Profligate
+Midwife Frog,Beast,Talking,2 blood,1,4,Croaking Trap,,,Amphibian,"""Yet another turn of the skinning knife...""",Pixel Profligate
+Terrible Goose,Beast,Talking,2 blood,1,2,"Hoarder, Blood Battery, Airborne",,,Avian,"""Your deck's a lil' lel, not gonna lie.""",Bluemem
+Wild Mutt,Beast,Talking,2 blood,2,3,"Gift Bearer, Go Fetch",,,Canine,"""'Tis a game o' chance! HEEEE-HAAW!!""",Pixel Profligate
+Noble Stag,Beast,Talking,3 blood,0,3,"Many Lives, Lord of Beast",,,Hooved,"""I suppose it was only a matter of time.""",Pixel Profligate
+Stinkbug,Beast,Talking,2 bones,1,2,"Stinky, Double Death",,,Insect,"""Salutations. A lucky draw.""",Pixel Profligate
+Grave Diglin,Undead,Side Deck,free,0,1,"Bone Digger, Bloodless",,,Spectre,"A little spirit, happy to help.",Desaft
+Shambling Cairn,Undead,Side Deck,free,0,1,"Unburial, Loose Bones, Bloodless",,,,"A critter, wandering burial grounds.",Murigen
+Skeleton,Undead,Side Deck,free,1,1,"Unburial, Brittle, Bloodless",,,Skeleton,A frail and spooky mass of bones.,Pixel Profligate
+Draugr,Undead,Common,free,0,1,"Frozen Away, Bloodless",Skeleton,,Possessed,"Frozen in time, waiting for freedom.",Pixel Profligate
+Disturbed Grave,Undead,Common,1 bone,0,2,"Undeath, Bloodless",Zombie,,Zombie,They never stay dead for long.,Pixel Profligate
+Gnarl Bark,Undead,Common,1 bone,0,3,"Rooted, Mighty Leap, Haunter",,,Possessed,A spooky visage in wood.,Pixel Profligate
+Gravedigger,Undead,Common,1 bone,0,3,Bone Digger,,,,Willing to dig what needs to be dug.,Pixel Profligate
+Jikininki,Undead,Common,1 bone,0,3,Scavenger,,,Possessed,He'll leave the bones for you to take.,Murigen
+Tombit,Undead,Common,1 bone,0,2,"Made of Stone, Memoriam",,,,"A small, but honorable commemoration.",Murigen
+Banshee,Undead,Common,2 bones,1,2,Airborne,,,Spectre,"Rather happy, despite the crying.",Pixel Profligate
+Floating Urn,Undead,Common,2 bones,0,1,"Ensouled, Loose Bones, Bloodless",,,Possessed,"Flings itself around the room, hazardly.",Murigen
+Pyroclasm,Undead,Common,2 bones,0,1,"Energy Gun, Rotting, Bloodless",,,Spectre,It is on the verge of burning out.,Murigen
+Skelemagus,Undead,Common,2 bones,X,1,"Brittle, Gem Powered",,,Mox Skeleton,"A once proud mage, left to rot.",Pixel Profligate
+Skeleton Crewmate,Undead,Common,2 bones,2,2,"Brittle, Crew Member",,,Skeleton Pirate,"A pirate in life, a pirate in death.","Murigen, Bluemem"
+Tsutsugamushi,Undead,Common,2 bones,1,1,Bloodsucker,,,Insect Demon,"A bringer of illness, a siphon of life.",Murigen
+Zombie,Undead,Common,2 bones,1,2,,,,Zombie,"Naught but a corpse, left to rot.",Pixel Profligate
+Animator,Undead,Common,4 bones,1,2,Puppet Master,,,Skeleton,The puppet becomes the puppeteer.,Murigen
+Ghast,Undead,Common,3 bones,1,1,Stinky,,,Zombie,A corpse left rotten and deformed.,Pixel Profligate
+Grave Hopper,Undead,Common,3 bones,1,3,"Burrower, Fracture",,,Skeleton,They just want to find their own grave.,Pixel Profligate
+Fiddlebones,Undead,Common,3 bones,0,3,"Sea Shanty, Sprinter, Memoriam",,,Spectre,Raves in taverns about lost sailors.,Murigen
+Privateer,Undead,Common,3 bones,2,1,"Sniper, Aquanaut, Brittle",,,Skeleton Pirate,A good captain stops ships from sinking.,"Desaft, Nevernamed"
+Revenant,Undead,Common,3 bones,3,1,Brittle,,,Skeleton,A bringer of death and renderer of flesh.,Pixel Profligate
+Shade,Undead,Common,3 bones,0,1,"Stalker, Haunter",,,Spectre,Always looming in the background.,Murigen
+Shadow,Undead,Common,3 bones,X,1,"Haunter, Facsimile",,,Spectre,An apt reflection of those around it.,Pixel Profligate
+Shambler,Undead,Common,3 bones,1,2,Horde,,,Zombie,Their numbers grow with their infection.,Pixel Profligate
+Skelemancer,Undead,Common,3 bones,0,2,Double Death,,,Skeleton,Still training to raise the dead properly.,Desaft
+Spirit Orb,Undead,Common,3 bones,0,1,"Blue Gem, Haunter",,,Spectre,Even the lowliest of spirits have use.,Pixel Profligate
+Necrose,Undead,Common,3 bones,1,1,Swarm,,,Zombie,Overcome with a strain of disease.,"Murigen, Prof. Eggnog"
+The Bloated,Undead,Common,3 bones,1,1,Marrow Blast,,,Zombie,"Grotesque boils, ready to burst.",Pixel Profligate
+Big Dig,Undead,Common,4 bones,0,4,"Unburial, Tomb Digger",,,,"Sometimes, one little shovel isn't enough.",Murigen
+Exorcist,Undead,Common,4 bones,2,1,Purist,,,Skeleton,Banishing his kind.,Murigen
+Frank & Stein,Undead,Common,4 bones,2,2,,Zombie,,Zombie Conduit Construct,"Sewn together, friends forever.",Pixel Profligate
+Ghost Ship,Undead,Common,4 bones,0,1,"Waterborne, Skeleton Crew",,,Pirate Spectre,Fully staffed and ready to plunder.,Pixel Profligate
+Ghost of the Past,Undead,Common,4 bones,0,2,Reaction Replica,,,Spectre,Nothing you do shall go unpunished.,
+Hanged Man,Undead,Common,4 bones,3,1,"Airborne, Brittle",,,Skeleton,His broken body sways in the breeze.,Pixel Profligate
+Haunted Tombstone,Undead,Common,4 bones,0,4,"Made of Stone, Night of the Living Dead",,,Possessed,A monument to the dearly departed.,Pixel Profligate
+Nosferatu,Undead,Common,4 bones,1,4,"Bloodsucker, Flying Transformer",,,,A bloodsucking prowler of the night.,Pixel Profligate
+Sarcophagus,Undead,Common,4 bones,0,3,Creeping Outwards,Mummy Lord,,Possessed,Traps an evil on the verge of escape.,Pixel Profligate
+Scarecrow,Undead,Common,4 bones,1,2,"Bifurcated Strike, Scavenger",,,,"Forced to harvest, as long as it stands.",Pixel Profligate
+The Walkers,Undead,Common,4 bones,1,2,Bone King,,,Zombie,"They lived together, they died together.",Pixel Profligate
+Wechuge,Undead,Common,4 bones,1,2,"Double Strike, Ensouled",,,Possessed,An ancient cannibalistic spirit.,"Desaft, Nevernamed"
+Allip,Undead,Common,5 bones,2,1,Soul Stealer,,,Spectre,A spiteful visage of what once was.,Murigen
+Bone Scrounger,Undead,Common,5 bones,1,3,"Bone Digger, Scavenger",,,Skeleton,Some are forced to scavenge the graves.,Pixel Profligate
+Cadaver Rat,Undead,Common,5 bones,1,1,"Corpse Eater, Scavenger",,,Vermin Zombie,A corpse within a corpse.,Pixel Profligate
+Ectoplasm,Undead,Common,5 bones,1,2,"Fecundity, Memoriam",,,Spectre,"Remains of a spirit, quick to expand.",Pixel Profligate
+Gargoyle,Undead,Common,5 bones,1,4,"Made of Stone, Guardian, Mighty Leap",,,Possessed,"Protecting the mausoleum, by force.",syntaxevasion
+Librarian,Undead,Common,5 bones,1,2,"Hoarder, Memoriam",,,Skeleton,They search for knowledge beyond life.,Pixel Profligate
+Nurikabe,Undead,Common,5 bones,0,3,"Burrower, Sharp Quills, Made of Stone, Bastion",,,Spectre,An invisible wall blocks the way.,Murigen
+Plague Doctor,Undead,Common,5 bones,1,2,"Touch of Death, Plague",,,,"Wherever they travel, death follows.",Murigen
+Possessed Armor,Undead,Common,5 bones,1,4,"Armored, Ensouled",,,Possessed,A common vessel for spirits.,Pixel Profligate
+Underworld Centurion,Undead,Common,5 bones,2,1,"Double Strike, Armored, Brittle",,,,"A legionnaire in life, a soldier beyond.",Murigen
+Bonehound,Undead,Common,6 bones,2,3,Guardian,,,Canine Skeleton Hound,"Ever loyal, even beyond the grave.",Pixel Profligate
+Coroner,Undead,Common,6 bones,2,2,"Snag, Desecration",,,,The deceased won't resist much longer.,Murigen
+Head Hunter,Undead,Common,6 bones,2,1,"Sniper, Skull Taker",,,,Bringing forth the rewards of each kill.,Desaft
+Heretic,Undead,Common,5 bones,0,4,"Snag, Puppet Master",,,Skeleton,A persistent lie can be powerful.,Murigen
+Lich,Undead,Common,6 bones,2,1,"Leader, Memoriam",,,Skeleton,Ever emboldening their undead horde.,Pixel Profligate
+Pati-ant Zero,Undead,Common,6 bones,1,1,"Corpse Eater, Poisonous",,,Zombie Ant Insect,Isn't nature beautiful?,Desaft
+Silent Wanderer,Undead,Common,6 bones,2,1,Spirit Medium,,,,"",Murigen
+Billow,Undead,Common,7 bones,1,4,"Regurgitate, Detonator",,,Zombie,What horrors lay inside its abject gut?,Murigen
+Spine Wyrm,Undead,Common,7 bones,3,2,"Sharp Quills, Spine Walker",,,Skeleton Reptile,A monstrous force of ivory.,Pixel Profligate
+Bone Devil,Undead,Common,9 bones,4,2,"Scavenger, Ensouled",,,Skeleton Demon,An infernal and sadistic creature.,Murigen
+Carrion Mouth,Undead,Common,10 bones,2,5,"Bloodsucker, Deathtrap",,,,"Locked away, and for good reason.",Pixel Profligate
+Rags,Undead,Common,2 energy,0,2,"Unburial, Haunter",,,Spectre,That one seems happier in death.,Murigen
+Lost Hewer,Undead,Common,3 energy,1,1,Shovel Latch,,,Spectre,"Despite everything, the labor continues.",Murigen
+Spook,Undead,Common,3 energy,0,2,"Burrower, Fracture, Bone Digger",,,Spectre,Boo!,Murigen
+Poltergeist,Undead,Common,4 energy,1,1,"Airborne, Warper",,,Spectre,An incorporeal menace.,"Desaft, Nevernamed"
+Tsukumogami,Undead,Common,4 energy,0,1,"Bone Digger, Haunter",,,Possessed,A tool that's lived for a century.,Murigen
+Wraith,Undead,Common,1 max + 8 energy,2,1,"Guardian, Sharp Quills",,,Spectre,An inescapable harbinger of death.,Murigen
+Clot,Undead,Common,2 blood,0,2,Fledgling,Meatman,,,An unfortunate pile of meat and thought.,Pixel Profligate
+Ghoul,Undead,Common,2 blood,2,2,"Corpse Eater, Rotting",,,Demon,A scavenger of fresh blood.,Pixel Profligate
+Mound of Flesh,Undead,Common,2 blood,0,3,"Many Lives, Unkillable",,,,Forever regrowing its own tissue.,Pixel Profligate
+Meatman,Undead,Common,3 blood,3,3,"Worthy Sacrifice, Haunter",,,Demon,An ever-imposing wall of meat.,Pixel Profligate
+Mimic,Undead,Common,2 sapphires,0,2,"Fledgling, Gift Bearer",Carrion Mouth,,Possessed,Contains naught but secrets and fear.,Pixel Profligate
+The Smoke,Undead,Uncommon,1 bone,0,1,"Bone King, Scalebound",,,Spectre,The last wisp of a life snuffed out.,Pixel Profligate
+Skelemaster,Undead,Uncommon,5 bones,0,4,"Recall the Broken, Fragile Construct",,,Skeleton,Has an affinity for all things brittle.,Murigen
+Gone,Undead,Uncommon,4 bones,0,1,Immortal Latch,,,Spectre,,Desaft
+Pharaoh's Pets,Undead,Uncommon,6 bones,0,1,"Many Lives, Bloody Hemanation",,,Zombie,"An inseperable pair, fit for a king.",Pixel Profligate
+Summoner,Undead,Uncommon,6 bones,0,4,"Soul Raiser, Memoriam",,,Demon,Its companions won't leave them so soon.,Murigen
+Nachzehrer,Undead,Uncommon,7 bones,2,1,"Bloodsucker, Bloodlust, Scrounger",,,Zombie,Consuming whatever carrion it can find.,Pixel Profligate
+Mummy Lord,Undead,Uncommon,8 bones,3,3,Purist,,,Noble Zombie,"A monster in life, a monster in death.",Pixel Profligate
+Abyss Watcher,Undead,Uncommon,9 bones,2,2,"Double Strike, Horde",,,Zombie,Guardians of unknowable depths.,"Murigen, Ixams"
+Wight,Undead,Uncommon,9 bones,2,2,Legion,,,Zombie,"A venerable commander, more so in death.",Murigen
+Abomination,Undead,Uncommon,10 bones,1,7,"Attack Conduit, Stinky",,,Zombie Conduit Construct,Cobbled together from skin and bone.,Pixel Profligate
+Creaking Skull,Undead,Uncommon,11 bones,3,4,Bone King,,,Skeleton,Bones rattle in the night.,Murigen
+Apparition,Undead,Uncommon,4 energy,1,1,"Horde, Scrounger",,,Spectre,"Prankish and playful, but oh so spiteful.",Murigen
+Phantom Mass,Undead,Uncommon,8 energy,0,3,Spirit Spread,,,Spectre,A conglomeration of tortured souls.,Pixel Profligate
+Undead Cat,Undead,Uncommon,4 blood,3,6,Unkillable,,,Zombie,Poor creature... how it has suffered.,Pixel Profligate
+Bone Heap,Undead,Rare,2 bones,0,1,Enlarge,,,Skeleton,A mass of marrow and carrion.,Pixel Profligate
+Bone Lord's Horn,Undead,Rare,3 bones,0,1,Bonehorn,,,Demon,This is a rather... interesting boon.,Pixel Profligate
+Drowned Soul,Undead,Rare,3 bones,1,1,"Touch of Death, Waterborne",,,Spectre,A shame no one was there to save them.,Pixel Profligate
+Slinger's Soul,Undead,Rare,6 bones,3,1,Energy Gun,,,Spectre,A stalwart spirit sharpshooter.,Desaft
+Tomb Robber,Undead,Rare,3 bones,0,2,Disentomb,,,,A little investment goes a long way.,Pixel Profligate
+Dead Hand,Undead,Rare,4 bones,1,1,Handy,,,Zombie,"Not all there, but carries a boon.",Pixel Profligate
+Long Elk,Undead,Rare,5 bones,1,2,"Spine Walker, Touch of Death",,,Hooved Skeleton,Words cannot describe this... creature.,Pixel Profligate
+Necromancer,Undead,Rare,7 bones,0,2,"Double Death, Memoriam",,,Skeleton,"Back from the grave, if only briefly.",Pixel Profligate
+Night Shifters,Undead,Rare,5 bones,0,5,"Sprinter, Mass Grave, Rotting",,,Employee,"Working the graveyard shift, together.","Yoyo, Lilith"
+Skeleton Army,Undead,Rare,5 bones,1,1,Skeletal Horde,,,Skeleton,"A frenzied hoard, seeking vengeance.",Desaft
+Davy Jones,Undead,Rare,10 bones,2,3,"Looter, Sea Shanty",,,Skeleton Pirate Spectre,,"Desaft, Nevernamed"
+Grave Knight,Undead,Rare,9 bones,4,4,"Repulsive, Rotting",,,,"Sworn to protect, even from beyond.",PaperPyro
+Skeletaur,Undead,Rare,11 bones,3,2,"Double Strike, Rampager",,,Hooved Skeleton,Its labyrinth became its tomb.,Pixel Profligate
+Headless Horseman,Undead,Rare,17 bones,5,5,"Airborne, Sprinter",,,Spectre,Striking fear into all who see him.,Pixel Profligate
+Gashadokuro,Undead,Rare,18 bones,6,6,"Brittle, Spine Ripper",,,Skeleton,"The spite of a thousand bones, at once.",Murigen
+The Reaper,Undead,Rare,12 energy,0,2,"Touch of Death, Bell Ringer, Haunter",,,Skeleton Spectre,Your time is up.,Murigen
+Pumpkin King,Undead,Rare,3 blood,1,7,"Pay Tribute, Rooted",,,Noble Pumpkin,Always in need of bloody sacrifice.,Pixel Profligate
+Frozen Frame,Undead,Talking,3 bones,1,1,"Sharp Quills, Frozen Away",Draugr,,Skeleton,"""Dude! Maybe turn up the heat a little?""",Pixel Profligate
+Gnawed Remains,Undead,Talking,3 bones,0,3,"Chew Toy, Dog Treat",,,Skeleton,"""P-Please don't play me...""",Pixel Profligate
+Scurvy Cap'n,Undead,Talking,3 bones,1,2,"Skeleton Crew, Sea Shanty",,,Skeleton Pirate,"""I git t'live out me dream as a card!""",Pixel Profligate
+Burnt Body,Undead,Talking,4 bones,1,4,"Raging Flames, Sharp Quills",,,Zombie,"""Oh cool, it's me. Great.""",Pixel Profligate
+Grave Mason,Undead,Talking,4 bones,1,4,Haunted Stonework,,,,"""Craft your vision.""",Murigen
+Bones Malone,Undead,Talking,5 bones,2,1,"Sniper, Rattle 'em!",,,Skeleton,"""Piracy is stealing! I love stealing!""","Yoyo, Bluemem, NEWS"
+Star Weaver,Undead,Talking,5 bones,1,4,"Equivalent Exchange, Gift Bearer",,,Skeleton,"""From dust I am born, to dust I succumb.""",Pixel Profligate
+Unlucky Corpse,Undead,Talking,6 bones,2,2,Unearthed Pack,,,Zombie,"""Wow, great draw!""",Pixel Profligate
+Witness of Ember,Undead,Talking,10 bones,2,2,"Double Strike, Pack Tactics, Abyss Cost",Abyss Watcher,,Zombie Canine,"""Allow me to finish our calling.""",Murigen
+Unseelie Queen,Undead,Talking,2 blood,2,2,"Unseelie Authority, Witching Hour",,,Noble,"""Cower! It is now the Witching Hour!""",Herilind
+L33pbot,Tech,Side Deck,free,0,2,"Mighty Leap, Bloodless",,,Leep Bot,Strong springs for jumping into action.,Pixel Profligate
+Null Conduit,Tech,Side Deck,1 energy,0,2,Bloodless,,,Conduit,"Transfers power, but not much else.",Pixel Profligate
+Sentry Drone,Tech,Side Deck,1 energy,0,1,"Sentry, Bloodless",,,Machine,Shoots anything that gets close.,Pixel Profligate
+Junk-0,Tech,Common,1 energy,0,1,Stinky,,,Android,It's odd for rust to smell this bad.,Pixel Profligate
+Automaton,Tech,Common,2 energy,1,1,,,,Bot,The most basic in function and form.,Pixel Profligate
+Boom-o-latcher,Tech,Common,2 energy,0,1,Explosive Latch,,,Latcher,Loading others with extreme explosives.,Pixel Profligate
+Pop-up Blocker,Tech,Common,2 energy,0,1,"Burrower, Armored",,,,Your damage request has been denied.,Answearing Machine
+Draugear,Tech,Common,2 energy,0,1,"Frozen Away, Bloodless",ExeSkeleton,,Possessed Machine,"Cold, but not calculating.",Desaft
+Energy Bot,Tech,Common,2 energy,0,1,Battery Bearer,,,Bot,Full of energy that it cannot use.,Pixel Profligate
+Gift Bot,Tech,Common,2 energy,0,2,Gift Bearer,,,Bot,What could it be hiding from you?,Pixel Profligate
+Billdozer,Tech,Common,2 energy,0,3,Bulldoze,,,Machine,"Well-meaning, but notoriously pushy.",syntaxevasion
+Sparkplug,Tech,Common,2 energy,0,2,Dynamo,,,Bot,A surprisingly helpful piece of tech.,Murigen
+49er,Tech,Common,3 energy,1,1,Sprinter,,,Android,"On the move, searching for something.",Pixel Profligate
+Alarm Bot,Tech,Common,3 energy,2,1,Annoying,,,Bot,"Universally reviled, but always on time.",Pixel Profligate
+Bone Mill,Tech,Common,3 energy,0,2,Fossil Fuel,,,Machine,Also useful for producing glue.,Desaft
+Cable Latcher,Tech,Common,3 energy,1,2,Circuit Latch,,,Conduit Latcher,Just barely able to make a connection.,Murigen
+Healing Conduit,Tech,Common,3 energy,0,2,Heal Conduit,,,Conduit,"An old model, but nonetheless effective.",Pixel Profligate
+Insectodrone,Tech,Common,3 energy,1,2,Airborne,,,Bot,The buzz of its flight is irritating.,Pixel Profligate
+Kind Cell,Tech,Common,3 energy,1,2,Generous when Powered,,,Cell,It might be feeling generous.,Pixel Profligate
+M34t Bot,Tech,Common,3 energy,0,2,Hearty Offering,,,Bot,A... curious bot indeed.,Pixel Profligate
+Marrow Cell,Tech,Common,3 energy,1,1,Digger when Powered,,,Cell,All bones obtained legally.*,Murigen
+Pipe Bomb,Tech,Common,3 energy,0,2,"Detonator, Primed Explosive",,,Machine,Good play. Unfortunately...,Answearing Machine
+Solar Cell,Tech,Common,3 energy,1,2,Power when Powered,,,Cell,"Making renewable energy, with no waste.",Murigen
+Scrapton,Tech,Common,3 energy,1,2,Made of Stone,,,Bot,"Heavy and sluggish, but extremely solid.",Murigen
+Guardian Cell,Tech,Common,4 energy,0,2,Breaker when Powered,,,Cell,Protective of what fuels them.,NULL
+Shield Latcher,Tech,Common,3 energy,0,1,Shield Latch,,,Latcher,Protecting others better than itself.,Pixel Profligate
+Sniper Bot,Tech,Common,3 energy,1,1,Sniper,,,Android,"Easy to aim, easy to shoot.",Pixel Profligate
+50-nar,Tech,Common,3 energy,1,1,Takeoff Transformer,,,Mechabeast Vermin,Its irritating screeches are unbearable.,Pixel Profligate
+Qu177,Tech,Common,3 energy,1,2,Spiky Transformer,,,Mechabeast Vermin,An ornery little tin can.,Pixel Profligate
+Blood Conduit,Tech,Common,3 energy,0,2,Blood Conduit,,,Conduit,Even blood contains iron.,Murigen
+Tough Cell,Tech,Common,3 energy,1,1,Buff when Powered,,,Cell,Now you're playing with power.,Pixel Profligate
+Exeskeleton,Tech,Common,4 energy,2,2,Brittle,,,Skeleton Android,A frail and spooky mass of scrap metal.,Desaft
+Explode Bot,Tech,Common,4 energy,1,1,Detonator,,,Bot,A bump could set it off.,Pixel Profligate
+Factory Conduit,Tech,Common,4 energy,0,3,Spawn Conduit,,,Conduit,"Even in battle, the line does not stop.",Pixel Profligate
+Overcharger,Tech,Common,4 energy,2,2,"Brittle, Detonator, Death Surge",,,Skeleton Android,It could blow at any moment...,Desaft
+Shield Bot,Tech,Common,4 energy,1,1,Armored,,,Bot,"Surprisingly sturdy, given its size.",Pixel Profligate
+Splinter Cell,Tech,Common,4 energy,1,1,Tri-strike when Powered,,,Cell,We couldn't fit a fourth strike.,Pixel Profligate
+Buff Conduit,Tech,Common,4 energy,0,2,Attack Conduit,,,Conduit,Sometimes they need a little extra juice.,Pixel Profligate
+Mox Memory Unit,Tech,Common,5 energy,0,4,Green Conduit,,,Mox Conduit,Emeralds are great for data tracking.,Pixel Profligate
+Mox Hardware Unit,Tech,Common,5 energy,0,4,Orange Conduit,,,Mox Conduit,Rubies make for great energy conductors.,Pixel Profligate
+Mox Processing Unit,Tech,Common,5 energy,0,4,Blue Conduit,,,Mox Conduit,Sapphires empower calculations.,Pixel Profligate
+Nucl34pbot,Tech,Common,5 energy,0,4,"Mighty Leap, Generator, Dynamo, Rotting",,,Leep Machine,It cannot handle its own energy.,"Murigen, Nevernamed"
+Skel-e-latcher,Tech,Common,5 energy,1,1,Toxic Latch,,,Latcher,Full of neurotoxins.,Pixel Profligate
+Thick Droid,Tech,Common,5 energy,1,3,Bastion,,,Android,It's just happy to be here.,Pixel Profligate
+K-9,Tech,Common,5 energy,1,2,Empowered Transformer,,,Mechabeast Canine,A vicious and twisted metal construct.,Pixel Profligate
+Paper Shredder,Tech,Common,5 energy,0,2,"Desecration, Sharp Quills",,,Machine,For complete and proper disposal.,
+4ntdroid,Tech,Common,6 energy,0,1,Deathtrap,,,Ant Insect Mechabeast,A scuttling little worker machine.,Pixel Profligate
+Nanoarmor Conduit,Tech,Common,6 energy,0,2,Armor Conduit,,,Conduit,Even works against explosives.,Desaft
+Steel Mice,Tech,Common,6 energy,1,2,Fecundity,,,Mechabeast Vermin,Keep their wires from getting tangled.,Pixel Profligate
+Max Energy Keeper,Tech,Common,6 energy,0,5,No Max Reduction,,,Android,Can this be any more straightforward?,Murigen
+Bolthound,Tech,Common,7 energy,2,3,Guardian,,,Canine Mechabeast Hound,A vicious and protective bucket of bolts.,Pixel Profligate
+C-Diver,Tech,Common,7 energy,1,4,"Aquanaut, Armored",,,Android,"Works deep, even deeper than the Dredger.",Pixel Profligate
+Gunbot,Tech,Common,1 max + 7 energy,4,1,"Piercing, Target Required",,,Bot,Built for one singular function.,Pixel Profligate
+Technoripper,Tech,Common,1 max + 7 energy,3,1,Piercing,,,Android,A violent bot of claws and bullets.,Pixel Profligate
+Core-v1d,Tech,Common,1 max + 8 energy,1,3,Takeoff Transformer,,,Mechabeast Avian,A metallic blight upon the skies.,Pixel Profligate
+Gamblobot,Tech,Common,2 max + 7 energy,X,1,Power Dice,,,Machine,Push your luck. What could go wrong?,Pixel Profligate
+L33p Launcher,Tech,Common,4 max + 7 energy,0,2,Yeetbot,L33pbot,,Machine,Springloaded for causing problems.,syntaxevasion
+Rooktank,Tech,Common,2 max + 8 energy,1,5,Iron Wall,,,Chess,The best offense is a good defense.,Desaft
+Steambot,Tech,Common,2 max + 8 energy,3,2,Hefty,,,Android,"Once a fighter, always a fighter.",Pixel Profligate
+Swapbot,Tech,Common,2 max + 8 energy,2,5,Swapper,,,Bot,Reconfigures itself to suit its mood.,Pixel Profligate
+Double Gunner,Tech,Common,2 max + 9 energy,2,1,Bifurcated Strike,,,Android,"Twice the guns, twice the power.",Pixel Profligate
+Gift Bot EX,Tech,Common,2 max + 9 energy,1,3,"Mighty Leap, Generosity Bearer",,,Bot,Just one was never enough.,Murigen
+Observer,Tech,Common,2 max + 9 energy,1,5,Sniper,,,Android,"Sees all it can, where it can.",Pixel Profligate
+Security System,Tech,Common,2 max + 9 energy,0,3,Offense Upgrade,,,Machine,Makes its routine virus scan.,Murigen
+Firewall,Tech,Common,1 max + 10 energy,0,5,"Burrower, Rampager, Sharp Quills",,,Machine,Nothing gets through without permission.,Pixel Profligate
+Johnny,Tech,Common,2 max + 10 energy,3,1,Stinky,,,Bot,"Surprisingly clean, as no one uses him.",Answearing Machine
+The Cube,Tech,Common,2 max + 10 energy,3,3,Swapper,,,Machine,The Cube.,Answearing Machine
+Archiver,Tech,Common,3 max + 10 energy,1,2,"Re-Index, Defiler",,,Android,An intelligence dedicated to sorting files.,Desaft
+Mecha Warrior,Tech,Common,3 max + 10 energy,2,2,"Double Strike, Warper",,,Android,An ultra high-power model.,Murigen
+Overseer,Tech,Common,2 max + 12 energy,1,4,"Bifurcated Strike, Sentry, Sprinter",,,Android,Prowls factories searching intruders.,Murigen
+Ducky,Tech,Common,3 max + 12 energy,2,3,"Waterborne, Annoying, Raging Flames",,,Avian Mechabeast,"This is ducky, the big one.",
+Steel Jaw,Tech,Common,3 max + 12 energy,1,3,"Bloodsucker, Raging Flames, Deathtrap",,,Android,You can't hold it back forever.,Murigen
+Exeskelemagbot,Tech,Uncommon,free,4,1,"Gem Dependent, Circuit Dependent",,,Skeleton Android Wizard,"It's not magic, it just needs extra juice.",Desaft
+Important File,Tech,Uncommon,1 energy,1,1,"Search Engine, Death Sentence, Salvation",,,Bot,Best not let it die.,Pixel Profligate
+Bad Fish,Tech,Uncommon,3 energy,0,1,"Brittle, Annoying",,,Mechabeast Fish,"An inefficient use of power, at best.",Pixel Profligate
+Conveyor Bot,Tech,Uncommon,4 energy,0,1,"Restructure, Haunter",,,Machine Bot,Efficiency demands motion.,Murigen
+C0pp3r-h34d,Tech,Uncommon,5 energy,1,3,Lethal Transformer,,,Mechabeast Reptile,Provides a violent shock to the system.,Pixel Profligate
+Blood Bank,Tech,Uncommon,6 energy,0,2,"Hearty Offering, Life Donor, Convalesce, Sprinter",,,Machine,Blood is a resource and commodity.,Desaft
+Good Fish,Tech,Uncommon,5 energy,1,1,"Waterborne, Sniper Transformer",,,Mechabeast Fish,,Merson
+E1337bot,Tech,Uncommon,1 max + 8 energy,1,3,"Mighty Leap, Leep Leader",,,Leep Pirate,Takes problems into its own hands.,Murigen
+Magnethead,Tech,Uncommon,2 max + 11 energy,2,1,"Piercing, Looter, Annoying",,,Bot,Gathers up scrap through brute force.,Murigen
+Acid Squirrel,Tech,Uncommon,12 energy,0,1,Unkillable,,,Mechabeast Vermin,"It uses... I dunno, quantum mechanics?",Murigen
+Very Big L33pbot,Tech,Uncommon,2 max + 12 energy,1,4,"Mighty Leap, Sentry, Poisonous",,,Leep,"Clunky, inefficient, and reeks of fumes.",Murigen
+Plasma Jimmy,Tech,Rare,2 energy,0,3,Energy Gun,,,Bot,"Shoots on command, without hesitation.",Pixel Profligate
+Amoebot,Tech,Rare,3 energy,1,1,Amorphous,,,Bot,Adapts and reforms as needed.,Pixel Profligate
+Borg Poly-worg,Tech,Rare,3 energy,0,3,"Armored, Mighty Leap, Leep Legion",,,Amphibian Android,Frog. Frog. Frog. Frog.,Pixel Profligate
+Curve Hopper,Tech,Rare,4 energy,2,3,,,,Android,Statistically very powerful for its cost.,Pixel Profligate
+Energy Conduit,Tech,Rare,3 energy,1,2,"Energy Conduit, Generator",,,Conduit,Infinite power at your fingertips.,Pixel Profligate
+Gr1zz,Tech,Rare,6 energy,0,4,Enraged Transformer,,,Mechabeast,"A true beast, replicated by machinery.",Pixel Profligate
+Ourobot,Tech,Rare,6 energy,2,2,Immortal Transformer,,,Mechabeast Reptile,"The eternal android, unyielding by design.",Pixel Profligate
+Overclock Conduit,Tech,Rare,6 energy,0,2,Overclock Conduit,,,Conduit,"Infinite power, itty bitty circuit space.",Desaft
+Sgt. T. Rustbucket III,Tech,Rare,6 energy,1,1,Legion,,,Android,Has got quite the portfolio.,Murigen
+Shutterbug,Tech,Rare,6 energy,1,1,"Sentry, Touch of Death",,,Machine,One photo to capture your last moment.,Pixel Profligate
+L33pbot NEO,Tech,Rare,7 energy,2,2,"Mighty Leap, Airborne, Leep Leader",,,Leep Avian,The strongest springs.,Murigen
+Mrs. Bomb,Tech,Rare,7 energy,1,1,Remote Bomb,,,Android,"A bombshell, through and through.",Pixel Profligate
+Quickdraw Bot,Tech,Rare,3 max + 10 energy,2,2,"Sniper, Touch of Death",,,Android,Its internal clock is set to high noon.,Desaft
+Titanium Titan,Tech,Rare,3 max + 12 energy,2,7,"Made of Stone, Overcharge",,,Android,A perfect weapon of mass destruction.,PaperPyro
+The Mechanism,Tech,Rare,4 max + 12 energy,0,2,"Overpower, Death Sentence",,,Machine,The solution/cause to all your problems.,Murigen
+Assemblotron Primus,Tech,Rare,3 blood,3,3,"Assembly, Sniper, Armored",,,Android,"Together, we are might!",Murigen
+Dredger,Tech,Talking,4 energy,1,2,"Aquanaut, Overclocked",,,Android,"""Oi, lookit. I'm somefin' uv a card.""",Pixel Profligate
+Inspector,Tech,Talking,4 energy,1,2,Search Engine,,,Conduit Android,"""I suppose your deck is adequate.""",Pixel Profligate
+Maintenance Droid,Tech,Talking,5 energy,1,3,Hotfix,,,Conduit Android,"""Doesn't matter. I'll just make it again.""",Answearingmachine
+Melter,Tech,Talking,5 energy,2,3,"Frozen Away, Raging Flames",M34t Bot,,Android,"""WE ARE-- I am... a good card.""",Pixel Profligate
+Holo-Trader,Tech,Talking,6 energy,1,3,"B34st Tamer, Mech Builder",,,,"""The true beasts are no more.""",Pixel Profligate
+Blue Bot,Tech,Talking,1 max + 7 energy,X,3,"Snake Eyes, Power Dice",,,Android,"""I have a 1 in 36 chance of being meta!""",Bluemem
+Steven,Tech,Talking,1 max + 8 energy,2,2,"Attack Conduit, Null Conduit, Haunter",,,Noble,"""Oh, and employee? You're Fired.""",Murigen
+Bolt Van Tankski,Tech,Talking,1 max + 11 energy,1,7,Sentry,,,Android,"""Bolt Van Tankski reporting for duty.""",
+Cyber Hero,Tech,Talking,3 max + 12 energy,1,3,"Trifurcated Strike, Sniper Transformer",,,Android,"""I've got it all, and then some!""",Murigen
+Emerald Mox,Magick,Side Deck,free,0,1,"Green Gem, Bloodless",,,Mox,A conduit for magicks of the body.,Pixel Profligate
+Ruby Mox,Magick,Side Deck,free,0,1,"Orange Gem, Bloodless",,,Mox,A conduit for magicks of the soul.,Pixel Profligate
+Sapphire Mox,Magick,Side Deck,free,0,1,"Blue Gem, Bloodless",,,Mox,A conduit for magicks of the mind.,Pixel Profligate
+Prism Mox,Magick,Common,free,0,1,"Prism Gem, Bloodless",,,Mox,A powerful conduit for all magicks.,Pixel Profligate
+Erratic Scholar,Magick,Common,1 prism,1,1,Mox Dropper,,,,Constantly losing their own research.,Pixel Profligate
+Mage Pupil,Magick,Common,free,1,2,Gem Dependent,,,Mage,A new learner of magicks.,Pixel Profligate
+Antimagician,Magick,Common,1 shattered prism,2,2,"Purist, Gem Dependent",,,Wizard,Some magicks simply must be stopped.,Pixel Profligate
+Mirror Mage,Magick,Common,1 prism,X,2,Facsimile,,,Mage,A pure reflection of one's own flaws.,Pixel Profligate
+Spell Slinger,Magick,Common,1 prism,1,1,"Gem Dependent, Sniper",,,Mage,Adept at casting spells from a distance.,Pixel Profligate
+Stasis Mage,Magick,Common,1 prism,0,1,"Frozen Away, Bloodless",Spell Slinger,,Mage,Has time to reconsider their study field.,Pixel Profligate
+Magic Missile,Magick,Uncommon,2 shattered prisms,1,1,"Trifurcated Strike, Sniper, Brittle",,,,A well-known incantation.,Murigen
+Grand Astrologer,Magick,Rare,2 prisms,1,4,"Event Horizon, All-Sight, True Prism",,,Wizard,"They see all, as it is bare before them.",Pixel Profligate
+Flawless Clockwork,Magick,Rare,3 prisms,3,3,"Made of Stone, Bastion, True Prism",,,Mox Construct,An immaculate construct of perfect mox.,Pixel Profligate
+Brush Mage,Magick,Talking,1 prism,1,2,Overcoat,,,Mage,"""Lemme give that a new coat of paint!""",Pixel Profligate
+Alchemist,Magick,Common,1 emerald,0,2,"Transmogutate, Leading Arcane",,,Wizard,Recklessly practices transmutation.,Murigen
+Fabergé Frog,Magick,Common,1 emerald,1,1,"Sentry, Familiar",,,Amphibian,A small agent of small magicks.,Pixel Profligate
+Gloom Virtuoso,Magick,Common,1 emerald,1,1,Glooming Dust,,,Wizard,"Saddening, artistic talent put to war.",Murigen
+Green Mage,Magick,Common,1 emerald,X,2,Gem Powered,,,Mage,They are powered directly by gems.,Pixel Profligate
+Jade Automata,Magick,Common,1 emerald,1,1,"Heart of Dust, Bloodless",,,Construct,A hardy construct fueled by mox.,Pixel Profligate
+Junior Sage,Magick,Common,1 emerald,1,2,,,,Sage,A new learner of the body's magicks.,Pixel Profligate
+Muscle Mage,Magick,Common,1 emerald,0,2,"Hefty, Empowered Transformer",,,Mage,Just loves to push people around.,Pixel Profligate
+Shade Soul,Magick,Common,1 emerald,0,1,Dust Gatherer,,,Mage Spectre,They collect magickal remnants.,Murigen
+Tenebrose Vessel,Magick,Common,1 emerald,0,2,Body of Dust,,,Aberration,A faithful provider of their own body.,Murigen
+Stim Mage,Magick,Common,1 emerald,0,2,Stimulate,,,Mage,Can push themselves beyond their limits.,Pixel Profligate
+Twilight Magus,Magick,Common,1 emerald,0,2,Sparkling Dust,,,Mage,Wells of power sleep in fragments.,syntaxevasion
+Corpsebloom Overgrowth,Magick,Common,2 emeralds,1,1,"Stinky, Evolving Arcane",Terror of Verdure,,Flower Aberration,,Murigen
+Druid,Magick,Common,1 emerald + 1 prism,0,3,Lifeblood,,,Mox Sage,Magic is the heart of nature.,Murigen
+Senior Sage,Magick,Common,1 emerald + 1 prism,1,3,Upbringing,,,Sage,Here to welcome the new generation.,Murigen
+Splitmind Maniac,Magick,Common,1 emerald + 1 prism,1,3,"Split Strike, Shadow Arcane",,,Aberration Wizard,Fractured and maddened by the unknown.,Murigen
+Waxmelt Scrivener,Magick,Common,1 emerald + 1 prism,1,3,Amorphous,,,Corrupted Sage,Barely able to copy inscriptions.,Murigen
+Crystalline Carrier,Magick,Common,1 emerald + 2 prisms,X,3,"Fragment Hoard, Gem Powered",,,Corrupted,Magick brought them to life.,Murigen
+Garish Geode,Magick,Common,1 shattered emerald,0,2,"Green Gem, Green Gem, Fragment Hoard, Bloodless",,,Mox,A formation high in magickal power.,Murigen
+Umbral Servant,Magick,Common,1 emerald,0,1,"Familiar, Dust Power, Heart of Dust",,,Aberration Sage,Hardly stands on its own.,Herilind
+Veiled Scourge,Magick,Common,1 shattered emerald,0,3,Dust Power,,,Corrupted Wizard,A lowly hermit gleaning from scraps.,Murigen
+Dark Abjurer,Magick,Common,1 shattered emerald + 1 shattered prism,0,3,"Sentry, Sharp Quills, Bloodlust",,,Aberration Wizard,The corpses it makes fuel it with power.,Murigen
+Fleeting Conjuror,Magick,Common,1 shattered emerald + 1 shattered prism,X,2,"Double Strike, Brittle, Gem Powered",,,Wizard Spectre,Powerful magick in a fleeting form.,Pixel profligate
+Terror of Verdure,Magick,Uncommon,4 emeralds,2,5,"Snag, Bloodlust",,,Flower Aberration,The might of the jungle has awoken.,Murigen
+Shadow Boxer,Magick,Uncommon,1 shattered prism + 1 shattered emerald,2,2,Dusted Knuckles,,,Wizard,They'll knock the magick out of you.,Bluemem
+Folding Weaver,Magick,Rare,1 shattered emerald + 1 shattered prism,1,3,Infinifold,,,Wizard Wizard Wizard Wizard Wizard Wizard,"A self similar magick, honed to infinity.",Bluemem
+Gloam Archmagus,Magick,Rare,1 emerald + 1 prism,1,2,Dooming Dust,,,Wizard,All things good must end...,Herilind
+Skulking Valravn,Magick,Rare,1 shattered emerald + 1 shattered prism,0,5,"Dust Power, Dust Gatherer",,,Corrupted Avian,It feasts on broken relics.,Pixel Profligate
+Masked Gemhorror,Magick,Rare,2 emerald + 1 prism,X,2,"Bifurcated Strike, Dust Eater, Gem Powered",,,Aberration,"Frail, but powerful beyond belief.",Desaft
+Void Maw,Magick,Rare,2 prisms + 1 emerald,X,5,"Bloodsucker, Gem-locked",,,Aberration,The all-consuming terror from the abyss.,Omega Shambler
+Grand Transmuter,Magick,Rare,1 shattered emerald,1,2,"Green Gem, Prism Latch",,,Corrupted Mage,"Their greatest work, themselves.",Herilind
+Umbral Puppeteer,Magick,Rare,1 shattered emerald,0,3,Illusion Dust,,,Wizard,Their servants are lucky to have them.,Herilind
+Puppet Mage,Magick,Talking,1 emerald,1,1,"Touch of Death, Soul Stealer, Bloodless",,,Posessed Mage,,Pixel Profligate
+Shower Mage,Magick,Talking,1 emerald,1,2,Putrid Essence,,,Mage,"""Uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh...""",Murigen
+Slime Mage,Magick,Talking,1 emerald,1,1,Imitation Art,,,Mage,"""AARRGH! I'll try my best!""",Pixel Profligate
+Ambush Mage,Magick,Common,1 ruby,1,1,Aggressive,,,Mage,This attack could have been predicted.,Murigen
+Gem Detonator,Magick,Common,1 ruby,1,1,Gem Detonator,,,,A rebel among the ranks.,Murigen
+Gem Doctor,Magick,Common,1 ruby,1,1,Gem Reinforce,,,Sage,Still practices with healing crystals.,Murigen
+Lizard Wizard,Magick,Common,1 ruby,1,1,"Loose Tail, Familiar",Wriggling Tail,,Reptile,king gizzard died in the bite of 87,
+Mage Knight,Magick,Common,1 ruby,1,3,"Gem Dependent, Sharp Quills",,,Mage Knight,Ever stalwart in the face of challenge.,Pixel Profligate
+Orange Mage,Magick,Common,1 ruby,0,1,Gem Animator,,,Mage Knight,"With practice, even mox have potential.",Pixel Profligate
+Practice Wizard,Magick,Common,1 ruby,0,3,Taunt,,,Wizard Construct,"Good for getting hit, but not much else.",Pixel Profligate
+Resolute Gemsmith,Magick,Common,1 ruby,0,3,Gem Intercept,,,,An expert jeweler.,syntaxevasion
+Ruby Golem,Magick,Common,1 ruby,1,1,"Ruby Heart, Bloodless",Ruby Mox,,Construct,A hulking construct driven by mox.,Pixel Profligate
+Spike Mage,Magick,Common,1 ruby,0,2,Gem Instability,,,Mage,Some mox magicks can be very unstable.,Murigen
+Telekinetic,Magick,Common,1 ruby,1,1,Restructure,,,Mage,Summoned when a formation is broken.,Murigen
+Wisp,Magick,Common,1 ruby,0,1,Soul Strike,,,Mox Spectre,"Without form, but charged in its will.",
+Exalted Warden,Magick,Common,1 ruby + 1 prism,1,3,"Snag, Unstable Arcane",,,Wizard Knight,Stopping awry magicks is quite a feat.,Murigen
+Iron Maiden,Magick,Common,1 ruby + 1 prism,1,1,"Armored, Sharp Quills",,,Machine,The price of insubordinance is pain.,Pixel Profligate
+Tamer Toad,Magick,Common,1 ruby + 1 prism,1,3,Truest Patron,,,Amphibian Sage,"The magic of beasts, the beast of magic.",Desaft
+Guardian Mage,Magick,Common,1 shattered ruby,1,1,Gem Guardian,,,Mage,Protective of what fuels their magic.,Pixel Profligate
+Mox Mage,Magick,Common,1 shattered ruby,1,2,"Orange Gem, Familiar",,,Mox Mage,A mox gained form... how curious.,Pixel Profligate
+Basilisk,Magick,Common,1 shattered ruby,1,6,"Familiar, Made of Stone, Bastion",,,Reptile,Don't look it in the eyes. It'll go away.,Murigen
+Spellsword Mercenary,Magick,Common,1 ruby + 1 prism,1,1,"Soul Strike, Enhanced Arcane",,,Posessed Sage,A proud mage's honor never dies.,Murigen
+Gem Banneret,Magick,Uncommon,1 ruby + 1 prism,0,2,"Leader, Annoying",,,Wizard Knight,Rallying the inanimate into a fervour.,Pixel Profligate
+Koi,Magick,Uncommon,1 ruby,0,1,"Leader, Waterborne, Familiar",,,Fish,No longer suited to live in the wild.,Murigen
+Enigmatic Paladin,Magick,Rare,1 ruby + 1 prism,2,2,Repulsing Arcane,,,Sage Knight,"An imprenetrable defense, when empowered.",Pixel Profligate
+Grand Machinist,Magick,Rare,2 rubies + 1 prism,0,3,"Gem Animator, Gem Instability, Gem Greed",,,Wizard,A paragon of gem augmentation.,Herilind
+Knight of Amber,Magick,Rare,1 ruby + 1 prism,1,4,"Made of Stone, Dust Barrier",,,Aberration Knight,"Sworn to protect, for all eternity.",Pixel Profligate
+Odious Sovereign,Magick,Rare,3 rubies,1,5,"Gem Greed, Leading Arcane",,,,Hungry for riches and power.,Murigen
+Pike Sage,Magick,Talking,1 ruby,1,1,Sharp Piercer,,,Sage,"""Ideally, you will play me well.""",Pixel Profligate
+Mending Mage,Magick,Talking,1 ruby,1,3,Gem Repair,,,Mage,"""Doesn't matter!! I got another one!!!""",
+Ardent Intellectual,Magick,Common,1 sapphire,1,2,Arcane Echo,,,Sage,His success comes from copying others.,Murigen
+Blue Mage,Magick,Common,1 sapphire,0,1,Mental Gemnastics,,,Mage,Creation is a powerful tool.,Pixel Profligate
+Crow,Magick,Common,1 sapphire,1,1,"Airborne, Familiar, All-Sight",,,Avian,It might have found something magical.,Murigen
+Esoteric Savant,Magick,Common,1 sapphire + 1 prism,0,3,Reaction Replica,,,Corrupted Wizard,Never content with casting a spell once.,Murigen
+Gem Fiend,Magick,Common,1 sapphire,2,1,Gem Dependent,,,Corrupted Sage,"Ravenous, driven mad by the gems.",Pixel Profligate
+Hover Mage,Magick,Common,1 sapphire,1,2,Airborne,,,Mage,"Flight is challenging, but useful.",Pixel Profligate
+Lazuli Construct,Magick,Common,1 sapphire,1,1,"Repulsing Transformer, Bloodless",,,Mox Construct,"An intricate construct, driven by mox.",Pixel Profligate
+Magickant,Magick,Common,1 ruby,0,2,"Many Lives, Familiar",,,Ant Insect,It has learned the summoner's ways.,Desaft
+Party Magician,Magick,Common,1 sapphire,1,1,Rabbit Hole,,,Mage,"Nothing spectacular, but entertaining.",Pixel Profligate
+Spell Counter,Magick,Common,1 sapphire,0,2,Cold Read,,,Wizard,Knowledge is power.,Murigen
+Soothsayer,Magick,Common,1 sapphire,1,2,Divination,,,Sage,"Can see the future, but not change it.",Pixel Profligate
+Summoner's Rift,Magick,Common,1 sapphire,0,2,Wild Reshape,,,Aberration,Only the fates know what will emerge.,Murigen
+Bauble Burglar,Magick,Common,1 shattered sapphire,1,1,"Side Hustle, Aiming Arcane",,,Outlaw,,Murigen
+Heartflayer,Magick,Common,1 shattered sapphire,X,1,traeH Power,,,Corrupted Sage,Armed with perfect knowledge of its foe.,Murigen
+Fortune Teller,Magick,Common,1 sapphire + 1 prism,1,3,All-Sight,,,Wizard,Do you wish to know your fate?,Murigen
+Opulent Hoodlum,Magick,Common,1 sapphire + 1 prism,0,3,Rampager,,,Outlaw Mox Wizard,A purveyor of dark-market crystals.,Murigen
+Solemn Arcanist,Magick,Common,1 sapphire + 1 prism,1,2,Arcane Blessing,,,Corrupted Sage,He sees magicks as crucial for triumph.,Murigen
+Arcane Trickster,Magick,Common,1 shattered sapphire,X,1,"Sniper, Facsimile",,,Outlaw,A deadly master of sleight of hand.,Murigen
+Clandestine Swindler,Magick,Common,1 shattered sapphire + 1 shattered prism,1,1,"Bifurcated Strike, Looter",,,Outlaw,Flawless crimes lead to opportunities.,Murigen
+Gembound Ripper,Magick,Common,1 shattered sapphire + 1 shattered prism,4,4,Gem Dependent,,,Aberration,A lust for gems and for blood.,Pixel Profligate
+Force Mage,Magick,Uncommon,1 sapphire,0,1,Repulsive,,,Mage,Repelling the greatest of assaults.,Pixel Profligate
+Pedantic Hag,Magick,Uncommon,1 shattered sapphire,1,1,"Corpse Eater, Purist, Gem Dependent",,,Corrupted Sage,Rambles on incorrect spell recitations.,Murigen
+Wildfrost Drake,Magick,Uncommon,1 shattered sapphire,2,4,"Familiar, Gem Dependent, Airborne",,,Reptile,"Adept, but troublesome to keep contained.",Muritgen
+Faterender,Magick,Rare,1 sapphire + 1 prism,1,1,"Snag, Purist, Lethal Arcane",,,Wizard,,Murigen
+All-Seeing Oracle,Magick,Rare,1 sapphire + 2 prism,1,4,Prophecy,,,Sage,Fate has been subdued to their will.,Herilind
+Hourglass Sycophant,Magick,Rare,1 shattered sapphire,1,2,"Reaction Replica, Double Death, Arcane Echo",,,Wizard,An unmatched master in time.,Murigen
+Brogg Polliwog,Magick,Rare,1 sapphire + 1 prism,1,3,"Mighty Leap, Frog Friend",,,Amphibian Sage,A wondrous friend to all frog kind.,Pixel Profligate
+Blue Archmagus,Magick,Rare,1 shattered sapphire,2,2,"Mental Fortitude, Gem Dependent",,,Skeleton Mage,"Aeons, spent learning the mystifying...",Desaft
+Lonely Wizard,Magick,Talking,1 sapphire,1,2,"Clinger, Stimulate",,,Wizard,"""YES! PLAY ME! STIMULATE ME!""",Pixel Profligate
+Thief Mage,Magick,Talking,1 sapphire,0,3,"Looter, Side Hustle",,,Outlaw Mage,"""So... a little help?""",Murigen
+Bixhound,Magick,Common,1 emerald + 1 ruby,2,3,"Guardian, Familiar",,,Canine Hound,A very loyal magickal companion.,Pixel Profligate
+Chimera Warden,Magick,Common,1 emerald + 1 ruby,1,2,"Bloodlust, Animated Arcane",,,Knight,"A hybrid, loyal and fierce to a fault.","Yoyo, Bluemem"
+Skyborne Soldier,Magick,Common,1 ruby + 1 sapphire,1,2,"Airborne, Sprinter, Enhanced Arcane",,,Knight,The utmost dedication to duty.,Pixel Profligate
+Maniacal Martialist,Magick,Common,1 ruby + 1 sapphire,1,2,"Evasion, Bloodlust",,,Outlaw Sage,The frenzy of a newfound might.,"Desaft, Murigen"
+Mysterious Merchant,Magick,Common,1 emerald + 1 sapphire,0,4,"Trinket Bearer, Enhanced Arcane",,,,Browse his wares for oddities.,Murigen
+Baleful Polymorph,Magick,Common,1 emerald + 1 ruby,0,1,Polymorph,,,Corrupted Mage,All succumb to transformation's chaos.,
+Book Burner,Magick,Rare,1 emerald + 1 sapphire,0,4,Firey Rummage,,,,Revealed secrets are theirs to keep.,Pixel Profligate
+Goranj's Mox,Magick,Rare,1 shattered prism,0,2,"Green Gem, Orange Gem, Bloodless",,,Mox,Created by Goranj to strengthen them.,Desaft
+Orlu's Mox,Magick,Rare,1 shattered prism,0,2,"Orange Gem, Blue Gem, Bloodless",,,Mox,Created by Orlu to focus her will.,Desaft
+Bleene's Mox,Magick,Rare,1 shattered prism,0,2,"Blue Gem, Green Gem, Bloodless",,,Mox,Created by Bleene to harness his insight.,Desaft
+Master Goranj,Magick,Rare,1 emerald + 1 ruby,3,6,Gem Dependent,,,Wizard,"Admittedly, more brute than wizard.",Pixel Profligate
+Master Orlu,Magick,Rare,1 ruby + 1 sapphire,1,3,"Airborne, Looter, Soul Strike",,,Knight,"Fight or flight? Why, both are ideal.",Pixel Profligate
+Master Bleene,Magick,Rare,1 sapphire + 1 emerald,0,4,True Scholar,,,Sage,"Creation's master, a life for a life.",Pixel Profligate
+Magnus Mox,Magick,Rare,1 shattered prism,0,7,"Magnificent Gem, Made of Stone, Death Sentence",,,Mox,A conduit for truly grand magicks.,Desaft
+Umbral Wealth Cabal,Magick,Rare,1 sapphire + 1 ruby + 1 emerald,3,3,"Gem Detonator, Gem Greed, Energy Gun",,,Wizard Outlaw,They love casting spells.,Murigen
+Dark Mage,Magick,Talking,1 sapphire + 1 prism,1,1,Arcane Echo,,,Mage,"""Ierth, fira and aer, all thal I'll need.""",Murigen
+Fluttering Friend,Magick,Talking,1 sapphire + 1 ruby,1,2,"Airborne, Guardian, To a Flame",,,Insect Wizard,"""Hah! These new friends are wonderful!""",Murigen
+Perilous Pyromancer,Magick,Talking,1 emerald + 1 ruby,1,3,"Gem Animator, Fireball",,,Mage,"""Let what you hold dear be scorched.""",PaperPyro
+Prideful Princess,Magick,Talking,1 ruby + 1 sapphire,1,1,Prosperity,,,Noble Sage,"""Come, my dear! Be yourself here!""",Herilind
+Altar of Malachite,Magick,Common,1 blood,0,3,Green Gem,,,Mox Altar,Reinforced with the might of the body.,Pixel Profligate
+Altar of Citrine,Magick,Common,1 blood,0,3,Orange Gem,,,Mox Altar,Made with the dedication of the soul.,Pixel Profligate
+Altar of Azurite,Magick,Common,1 blood,0,3,Blue Gem,,,Mox Altar,Perfected with the ingenuity of the mind.,Pixel Profligate
+Garden of Soul,Magick,Common,1 shattered sapphire,0,3,"Orange Gem, Unholy Will",,,Mox Altar,What is drive without rest?,Murigen
+Library of Mind,Magick,Common,1 shattered emerald,0,3,"Blue Gem, Infinite Knowledge",,,Mox Altar,What is wisdom without discovery?,Murigen
+Monolith of Form,Magick,Common,1 shattered ruby,0,3,"Green Gem, Eternal Life",,,Mox Altar,What is perfection without refinement?,Murigen
+Mad Cultist,Magick,Common,2 blood,2,1,Mental Gemnastics,,,Cultist,Led astray by falsities and sacrifices.,Pixel Profligate
+Mad Prophet,Magick,Common,2 blood,1,3,"Snag, Altar Prayer",,,Cultist,Power comes from the name you chose.,Pixel Profligate
+Mad Conspirator,Magick,Common,2 blood,X,3,"Hoarder, Gem Powered",,,Cultist,"Twelve sets in the morning, two at eve.",Desaft
+Mad Ritualist,Magick,Common,2 blood,X,4,"Life Donor, Animated Hemanation, Gem Powered",,,Cultist,,Pixel Profligate
+Null Mage,Magick,Common,6 energy,1,3,Prism Conduit,,,Android Conduit Mage,Even mages see the value of energy.,Pixel Profligate
+Forgotten Soul,Undead,Side Deck,1 energy,1,1,"Brittle, Bloodless",,,Spectre,Some souls never find salvation.,Murigen
+Empty Vessel,Tech,Side Deck,1 energy,0,2,,,,,No functionality has been inserted.,Pixel Profligate

@@ -1,0 +1,155 @@
+####  GENERAL SECTION
+
+
+cards_file_path = "data/cards.csv"     # Cards file path (Default: "data/cards.csv")
+sigils_file_path = "data/sigils.csv"     # Sigils file path (Default: "data/sigils.csv")
+traits_file_path = "data/traits.csv"     # Traits file path (Default: "data/traits.csv")
+
+# Font to use to write the text on the cards. (Default: "heavyweight")
+# Available fonts by default:
+# - Leshy: "heavyweight"
+# - Grimora: "portmanteau" (uses "heavyweight" for cards)
+# - P03: "daggersquare"
+# - Magnificus: "garbageschrift" (uses "vicioushunger" for cards)
+# - Act 2: "lanapixel" and "minecraft"
+# - The "umbrage" font is used by multiple characters like Goobert and Mycologist.
+# Careful ! Changing this will require changing a lot of other parameters (such as text size and position) in order
+# for the cards to look good.
+font = "heavyweight"
+
+
+####  SIGIL AND TRAITS SECTION
+
+
+# Sigil size settings
+sigil_space = 880       # Width for drawing sigils (Default: 880)
+sigil_img_space = 180   # Maximum width for sigil art (Default: 180). Sigil description width = sigil_space - sigil_img_space - 5.
+
+# Sigil appearance settings
+sigil_img_scale = 100       # Scaling percentage for sigils (Default: 100)
+show_outline_only = false   # Draws the "outline" variant (no colors) of sigils if possible (Default: false)
+
+# Icon settings for sigil descriptions
+icons.resource = false  # Display resource icons (Default: false)
+icons.mark = true       # Display mark icons (Default: true)
+icons.sigil = false     # Display sigil icons (Default: false)
+
+# Text/Icon size for the sigil upper_name and sigil description
+sigil_name = 55                     # (Default: 55)
+sigil_description = 45              # (Default: 45)
+sigil_description_icon_size = 40    # (Default: 40)
+trait_description = 40              # (Default: 40)
+trait_description_icon_size = 35    # (Default: 35)
+
+# Sigil export settings
+export_normal_formatting = true             # Export sigils in default format (Default: true)
+export_shorter_formatting = false           # Export sigils in shortened format (Default: false)
+export_base_game_formatting = false         # Export sigils in their base game format (Default: false)
+export_sigil_patches = false                # Export sigil patches (Default: false)
+export_sigil_description_icon = false       # Export sigil description icons (Default: false)
+export_trait_description_icon = false       # Export trait description icons (Default: false)
+
+# Trait export settings
+exported_traitline = "None"     # Temple's traitline to use when exporting traits (Default: "None" -> no traitline)
+
+# Sigils and Traits export settings
+export_color = [0, 0, 0]    # Color in which sigils (and traits if exported_traitline is "None") will be exported (Default: [0, 0, 0])
+
+
+####  CARD SECTION
+
+
+# Formatting and display options for cards
+allow_default_formatting = true     # Use default formatting for sigils on cards (Default: true)
+allow_card_bottom_removal = true    # Allow removal of bottom outline on cards if necessary (Default: true)
+allow_shorter_formatting = true     # Allow shorter sigil formatting if necessary (Default: true)
+allow_base_game_display = true      # Allow base game sigil display (Default: true). Setting this to false may result in sigils flowing out of the card.
+# Prioritize removing bottom outline before shortening sigils' formatting. (Default: true)
+# Only applies to default formatting, as the program will always try to remove the bottom outline before using the base game display. (only if allow_card_bottom_removal is on)
+prioritize_removing_bottom = true
+
+# Other preferences for drawing cards.
+center_card_name = true         # Center the card name instead of aligning it to the left (Default: true)
+write_card_description = true   # Write the temple, tier and tribes at the top of the card (Default: true)
+conduit_tribe_overlay = true    # Display conduit indicator for "Conduit" tribe cards (Default: true)
+traits_at_bottom = true         # Display traits at the bottom of the card (Default: true)
+text_over_art = true            # Draw text over art if they overlap (Default: true). Stats will always be drawn above everything.
+
+# Bloodless cards settings
+bloodless_outline = true            # Use terrain outline for bloodless cards (Default: true)
+bloodless_sigil_to_trait = false    # Translate bloodless sigils to traits (Default: false)
+show_bloodless_text = false         # Display bloodless as sigil or trait (Default: false)
+
+# Card power settings
+remove_power_stat_when_attack_sigil_present = true  # Remove power stat when determined by a sigil (Default: true)
+# Display attack sigil on top of power stat. Transforms the sigil into a trait. (Default: true)
+# Careful ! If turned on, the above option will not matter.
+attack_sigil_on_power_stat = true
+
+# Text sizes for cards
+name = 110          # Card upper_name text size (Default: 110)
+stats = 110         # Card stats text size (Default: 110)
+flavor_text = 45    # Flavor text size (Default: 45)
+
+# Indicates the order of temples. Used to determine which variant of a sprite to take.
+# (Default: ["Beast", "Undead", "Tech", "Magick"])
+temples = ["Beast", "Undead", "Tech", "Magick"]
+
+text_colors.Beast = [125, 78, 48]       # Beast temple flavor text color (Default: [125, 78, 48])
+text_colors.Undead = [106, 112, 84]     # Undead temple flavor text color (Default: [106, 112, 84])
+text_colors.Tech = [73, 123, 156]       # Tech temple flavor text color (Default: [73, 123, 156])
+text_colors.Magick = [156, 73, 128]     # Magick temple flavor text color (Default: [156, 73, 128])
+
+
+# Sigil height limits for each outline. Common heights also serve as talking and side deck heights.
+max_common_height = 1430            # Default: 1430
+max_common_terrain_height = 1440    # Default: 1440
+max_uncommon_height = 1440          # Default: 1440
+max_uncommon_terrain_height = 1450  # Default: 1450
+# Height limit for rare cards' sigils vary from temple to temple.
+max_rare_height.Beast = 1420    # Default: 1420
+max_rare_height.Undead = 1430   # Default: 1430
+max_rare_height.Tech = 1430     # Default: 1430
+max_rare_height.Magick = 1430   # Default: 1430
+# Height limit for rare terrain cards' sigils vary from temple to temple.
+max_rare_terrain_height.Beast = 1430    # Default: 1430
+max_rare_terrain_height.Undead = 1430   # Default: 1430
+max_rare_terrain_height.Tech = 1430     # Default: 1430
+max_rare_terrain_height.Magick = 1430   # Default: 1430
+
+# Coordinates of the power stat for each attack mark.
+power_coord.Terrain = [193, 885]    # Default: [193, 885]
+power_coord.Beast = [198, 885]      # Default: [198, 885]
+power_coord.Undead = [198, 885]     # Default: [198, 885]
+power_coord.Tech = [198, 885]       # Default: [198, 885]
+power_coord.Magick = [198, 885]     # Default: [198, 885]
+# Box for the attack sigil to go on the power stat for each attack mark (only if attack_sigil_on_power_stat is on)
+attack_sigil_box.Terrain = [130, 840, 300, 1020]    # Default: [130, 840, 300, 1020]
+attack_sigil_box.Beast = [130, 840, 310, 1010]      # Default: [130, 840, 310, 1010]
+attack_sigil_box.Undead = [130, 840, 320, 1020]     # Default: [130, 840, 320, 1020]
+attack_sigil_box.Tech = [120, 830, 320, 1030]       # Default: [120, 830, 320, 1030]
+attack_sigil_box.Magick = [130, 840, 310, 1030]     # Default: [130, 840, 310, 1030]
+
+# Card export settings
+export_sorted_by_folder = true  # Will create folders for each temple and tier to sort the cards when exporting them.
+
+# From here on, it is advised that these values are not changed.
+
+card_name_left_border = 138     # Left border for writing card names if not centered (Default: 138)
+card_name_top_height = 138      # Top height for writing card names (Default: 138)
+max_name_width = 870            # Maximum width for card names (Default: 870)
+flavor_text_top_height = 962    # Top height for writing flavor text (Default: 962)
+max_flavor_text_width = 700     # Maximum width for flavor text (Default: 700)
+
+cost_bottom = 920               # Bottom height for drawing cost (Default: 920)
+cost_right_border = 990         # Right border for drawing cost (Default: 990)
+
+health_coord = [893, 223]       # Coordinates of the health stat (Default: [893, 223])
+
+description_top_height = 15     # Top height for writing card description (Default: 15)
+
+conduit_top_height = 1005       # Top height for drawing conduit indicators (Default: 1005)
+
+sigil_top_height = 1010         # Top height for drawing sigils (Default: 1010)
+sigil_left_border = 120         # Left border for drawing sigils (Default: 120)
+sigil_lower_top_height = 1230   # Lower top height for drawing sigils (Default: 1230). Used for base game display.

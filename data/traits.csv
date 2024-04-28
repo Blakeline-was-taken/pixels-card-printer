@@ -1,0 +1,40 @@
+Name,Description,Is_attack_sigil
+Bloodless,This card cannot be sacrificed.,
+Boneless,"This card does not drop a [icon:bone] bone when it perishes.",
+Ant Power,"This card's power is equal to the number of other Ant cards you control.",T
+Mirror Power,"This card's power is equal to the opposing card's power.",T
+Warren Trait,"When sacrificed, search 1 ""TOKEN"" into your hand.",
+Hand Power,"This card's power is equal to the number of cards in your hand, to a maximum of 5.",T
+Double Scavenger,"Each time you gain a [icon:bone] bone due to [sigil:Scavenger] ""Scavenger"", gain another.",
+Nine Lives,"After sacrificing this card 9 times, you may search a ""TOKEN"" and place it over this.",
+Blood Power,"This card's power is equal to the number of sacrifices you made this turn, to a maximum of 5.",T
+Lammergier Trait,"If this card has 4 or more power, it does not recieve the effects of [sigil:Airborne] ""Airborne"".",
+Bone Power,"This card's power is equal to half the number of unspent [icon:bone] bones you own, rounded down and to a maximum of 5.",T
+Amalgam Trait,"This card counts as every possible tribe.",
+Kraken trait,"On your next draw step, search and place any Tentacle card over this one.",
+3astly,"This card's cost must be paid by sacrificing at least 3 cards.",
+Gift Dogs,"While this card is on the field, all Canine cards you control act as though they have the [sigil:GiftBearer] ""Gift Bearer"" sigil.",
+Noble Stag Trait,"Each time this card is sacrificed, it gains 1 power, to a maximum of 5.",
+Gem Power,"This card's power is equal to the number of Mox cards you control.",T
+Skeleton Crew Trait,"If you control a card with [sigil:SkeletonCrew] ""Skeleton Crew"", you may play this card for free.",
+The Bloated Trait,"When this card perishes, gain 1 extra bone for each card killed by its [sigil:Detonator] Detonator blast.",
+WERE THE RATS,"While this card is on the field, all Vermin cards you control act as though they have the [sigil:TouchofDeath] ""Touch of Death"" sigil.",
+Smoke Trait,"You may move the scales 2 points closer to you in order to play this card for free.",
+Search Brittle,"When played, search any common card with [sigil:Brittle] ""Brittle"" into your hand.",
+Gone Reminder,"As a reminder, all changes to a card's power and sigils are reverted after it leaves the field.",
+Skeleton Army Trait,"When played, play a ""Skeleton"" from your side deck in each empty space on your side.",
+Spine Ripper Trait,"For each card in your discard with [sigil:Brittle] ""Brittle"", you may play this card for 1 less [icon:bone] bone.",
+Gnawed Remains Trait,"While this card is on the field, you may play Hound cards for half their cost, rounded down.",
+Abyss Cost,"For each ""TOKEN"" in your discard, you may play this card for 2 less [icon:bone] bones.",
+Pipe Bomb Trait,"If this card perishes due to [sigil:Rotting] ""Rotting"", the effects of [sigil:Detonator] Detonator will trigger as though this card had perished by combat.",
+Brittle Latcher Fix,"The affected card will only perish if it attacked while already having the sigil.",
+Gunbot Trait,"While this card is not opposing another card, it has 0 power.",
+Dice Power,"When played, roll a six-sided die numbered 1-6. This card's power is equal to the result.",T
+Captive File Trait,"On its owner's second end step after this card was played, it is moved to the discard pile without perishing.",
+Assemblotron Cost,"This card may only be played by sacrificing an Automaton, Sniper Bot and Shield Bot, in any order.",
+Search Mechabeast,"When played, search any common Mechabeast card into your hand.",
+Diamond Cost,"This card's cost must be paid entirely with gems of unique colors.",
+Pike Sage Trait,"If this card has 1 power, it strikes will simultaneously damage the opposing card and the scales directly.",
+traeH Power,"This card's power is equal to the opposing card's health.",T
+Altar Bonus,"When looking at cards with [sigil:Divination] ""Divination"", add any Altar card you see to your hand.",
+Maw Power,This card's power is equal to 3 minus the number of Mox cards you control.,T
