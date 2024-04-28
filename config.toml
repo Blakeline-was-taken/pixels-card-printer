@@ -92,13 +92,14 @@ stats = 110         # Card stats text size (Default: 110)
 flavor_text = 45    # Flavor text size (Default: 45)
 
 # Indicates the order of temples. Used to determine which variant of a sprite to take.
-# (Default: ["Beast", "Undead", "Tech", "Magick"])
-temples = ["Beast", "Undead", "Tech", "Magick"]
+# (Default: ["Beast", "Undead", "Tech", "Magick", "Insanity"])
+temples = ["Beast", "Undead", "Tech", "Magick", "Insanity"]
 
 text_colors.Beast = [125, 78, 48]       # Beast temple flavor text color (Default: [125, 78, 48])
 text_colors.Undead = [106, 112, 84]     # Undead temple flavor text color (Default: [106, 112, 84])
 text_colors.Tech = [73, 123, 156]       # Tech temple flavor text color (Default: [73, 123, 156])
 text_colors.Magick = [156, 73, 128]     # Magick temple flavor text color (Default: [156, 73, 128])
+text_colors.Insanity = [177, 45, 54]    # Insanity temple flavor text color (Default: [177, 45, 54])
 
 
 # Sigil height limits for each outline. Common heights also serve as talking and side deck heights.
@@ -107,10 +108,11 @@ max_common_terrain_height = 1440    # Default: 1440
 max_uncommon_height = 1440          # Default: 1440
 max_uncommon_terrain_height = 1450  # Default: 1450
 # Height limit for rare cards' sigils vary from temple to temple.
-max_rare_height.Beast = 1420    # Default: 1420
-max_rare_height.Undead = 1430   # Default: 1430
-max_rare_height.Tech = 1430     # Default: 1430
-max_rare_height.Magick = 1430   # Default: 1430
+max_rare_height.Beast = 1420        # Default: 1420
+max_rare_height.Undead = 1430       # Default: 1430
+max_rare_height.Tech = 1430         # Default: 1430
+max_rare_height.Magick = 1430       # Default: 1430
+max_rare_height.Insanity = 1440     # Default: 1440
 # Height limit for rare terrain cards' sigils vary from temple to temple.
 max_rare_terrain_height.Beast = 1430    # Default: 1430
 max_rare_terrain_height.Undead = 1430   # Default: 1430
@@ -123,12 +125,14 @@ power_coord.Beast = [198, 885]      # Default: [198, 885]
 power_coord.Undead = [198, 885]     # Default: [198, 885]
 power_coord.Tech = [198, 885]       # Default: [198, 885]
 power_coord.Magick = [198, 885]     # Default: [198, 885]
+power_coord.Insanity = [198, 885]   # Default: [198, 885]
 # Box for the attack sigil to go on the power stat for each attack mark (only if attack_sigil_on_power_stat is on)
 attack_sigil_box.Terrain = [130, 840, 300, 1020]    # Default: [130, 840, 300, 1020]
 attack_sigil_box.Beast = [130, 840, 310, 1010]      # Default: [130, 840, 310, 1010]
 attack_sigil_box.Undead = [130, 840, 320, 1020]     # Default: [130, 840, 320, 1020]
 attack_sigil_box.Tech = [120, 830, 320, 1030]       # Default: [120, 830, 320, 1030]
 attack_sigil_box.Magick = [130, 840, 310, 1030]     # Default: [130, 840, 310, 1030]
+attack_sigil_box.Insanity = [120, 830, 320, 1030]   # Default: [120, 830, 320, 1030]
 
 # Card export settings
 export_sorted_by_folder = true  # Will create folders for each temple and tier to sort the cards when exporting them.

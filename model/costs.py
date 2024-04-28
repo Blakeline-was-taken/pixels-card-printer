@@ -1,7 +1,6 @@
 from PIL import Image
 from model import config, logging
 
-
 TEMPLES = config["temples"]
 
 
@@ -178,6 +177,50 @@ class Gems:
         return cost_image
 
 
+class Distress:
+
+    def __init__(self, amount: int):
+        self.amount = amount
+
+    def __add__(self, other):
+        if type(other) is not Distress:
+            raise TypeError("Add operation can only be performed on two resources of the same type")
+        return Distress(self.amount + other.amount)
+
+    def __sub__(self, other):
+        if type(other) is not Distress:
+            raise TypeError("Sub operation can only be performed on two resources of the same type")
+        return Distress(self.amount - other.amount)
+
+    def getCostImage(self, temple: str) -> Image:
+        if self.amount > 6:
+            img = Image.open(f"assets/costs/insanity/distress{self.amount}.png").convert("RGBA")
+            return get_temple_variant(img, temple)
+
+        img = Image.open("assets/costs/insanity/distress_bar.png").convert("RGBA")
+        version_img = get_temple_variant(img, temple)
+
+        if self.amount == 1:
+            return version_img
+
+        final_width = self.amount * (version_img.width - 30) + 30
+        final_image = Image.new('RGBA', (final_width, version_img.height))
+
+        x_pos = 0
+        for i in range(self.amount):
+            if i == 0:
+                bar = version_img.copy().crop((0, 0, version_img.width - 20, version_img.height))
+                final_image.paste(bar, (x_pos, 0))
+            elif i == self.amount - 1:
+                bar = version_img.copy().crop((10, 0, version_img.width, version_img.height))
+                final_image.paste(bar, (x_pos, 0))
+            else:
+                bar = version_img.copy().crop((10, 0, version_img.width - 20, version_img.height))
+                final_image.paste(bar, (x_pos, 0))
+            x_pos += bar.width
+        return final_image
+
+
 def get_cost(strcost):
     cost = []
     if strcost is None:
@@ -226,6 +269,11 @@ def get_cost(strcost):
                 else:
                     gems = Gems(c)
                     cost.append(gems)
+
+            # Distress
+            elif "distress" in c:
+                cost.append(Distress(int(c.split(" ")[0])))
+
             # Add custom costs here with other elif
             else:
                 raise KeyError(f"Unknown cost type: {c}")
