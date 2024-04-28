@@ -1,7 +1,6 @@
 from PIL import Image
 from model import config, logging
 
-
 TEMPLES = config["temples"]
 
 
@@ -135,7 +134,7 @@ class Gems:
 
     def __sub__(self, other):
         if type(other) not in [Gems, str]:
-            raise TypeError('Sub operation between gems may only be done with objects of type Gems or Gem.')
+            raise TypeError('Sub operation between gems may only be done with objects of type Gems or str.')
         if type(other) is str:
             other = [other]
         for gem in other:
@@ -175,6 +174,47 @@ class Gems:
 
             cost_image.paste(img, paste_position, mask=img)
             offset += img.width - 10
+        return cost_image
+
+
+class Alchemy:
+
+    def __init__(self, *chemicals: str):
+        self.chemicals = list(chemicals)
+
+    def __add__(self, other):
+        if type(other) not in [Alchemy, str]:
+            raise TypeError('Add operation between chemicals may only be done with objects of type Chemicals or str.')
+        self.chemicals += other.chemicals if type(other) is Alchemy else [other]
+
+    def __sub__(self, other):
+        if type(other) not in [Alchemy, str]:
+            raise TypeError('Sub operation between chemicals may only be done with objects of type Chemicals or str.')
+        if type(other) is str:
+            other = [other]
+        for gem in other:
+            if gem in self.chemicals:
+                self.chemicals.remove(gem)
+
+    def copy(self):
+        return Alchemy(*self.chemicals[:])
+
+    def getCostImage(self, temple: str) -> Image:
+        chemical_images = []
+        for chemical in self.chemicals:
+            name = chemical.split(" ")[-1].lower()
+            image = Image.open(f"assets/costs/alchemy/{name}.png").convert("RGBA")
+            for _ in range(int(chemical.split(" ")[0])):
+                chemical_images.append(image)
+
+        space_removed = {1: 0, 2: 0, 3: 0, 4: 2, 5: 3, 6: 3, 7: 4, 8: 4, 9: 5, 10: 5, 11: 5}.get(len(chemical_images), 6) * 10
+        total_width = (sum(img.width + 10 - space_removed for img in chemical_images) - 10 + space_removed)
+        cost_image = Image.new("RGBA", (total_width, 100), (255, 255, 255, 0))
+
+        offset = 0
+        for img in chemical_images:
+            cost_image.paste(img, (offset, 0), mask=img)
+            offset += img.width + 10 - space_removed
         return cost_image
 
 
@@ -226,6 +266,21 @@ def get_cost(strcost):
                 else:
                     gems = Gems(c)
                     cost.append(gems)
+
+            # Alchemy
+            elif any(chemical in c for chemical in ["flesh", "metal", "elexir", "aether"]):
+                chemicals = None
+                i = 0
+                while chemicals is None and i < len(cost):
+                    if isinstance(cost[i], Alchemy):
+                        chemicals = cost[i]
+                    i += 1
+                if chemicals:
+                    chemicals += c
+                else:
+                    chemicals = Alchemy(c)
+                    cost.append(chemicals)
+
             # Add custom costs here with other elif
             else:
                 raise KeyError(f"Unknown cost type: {c}")
