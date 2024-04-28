@@ -32,7 +32,7 @@ In order to launch the program, simply run the main.py file. Here, you will get 
 
 In order to select the items you wish to export, you must enter their name. You can also choose to export an array of items, by putting two names separated by a colon, which will also output every item between the two (in the order they are placed in the data file). For example: `Bullfrog:Cat`
 
-You can export multiple items and array of items simply by separating them with commas. For exampele: `Adder,Bee:Squirrel,Bullfrog,Axolotl:Flying Ant,Wolf:Grizzly,Cat`
+You can export multiple items and arrays of items simply by separating them with commas. For example: `Adder,Bee:Squirrel,Bullfrog,Axolotl:Flying Ant,Wolf:Grizzly,Cat`
 
 Names are case-insensitive but spelling, spaces and special characters do matter.
 
