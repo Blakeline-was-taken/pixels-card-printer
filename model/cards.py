@@ -101,7 +101,7 @@ def get_sigil_and_trait_list(csv_dict, conduit):
 
     try:
         for sigil in str_sigils:
-            if sigil in sigils.TRAITS:
+            if sigil in sigils.TRAITS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
                 if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens, token_id):
                     has_attack_sigil = True
 
@@ -114,7 +114,7 @@ def get_sigil_and_trait_list(csv_dict, conduit):
                         conduit = sigil.translate(str.maketrans("", "", " ',-!?"))
 
         for sigil in str_traits:
-            if sigil in sigils.TRAITS and not (sigil == "Bloodless" and config["show_bloodless_text"]):
+            if sigil in sigils.TRAITS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
                 if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens, token_id):
                     has_attack_sigil = True
 
