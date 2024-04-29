@@ -191,9 +191,9 @@ def draw_sigils(image, temple, tier, file_tier, sac, bloodless,
         sigil_list, trait_list, sigil_y, image, tier, temple, bloodless, default_format
     )
 
-    if use_empty_bottom and (not config["allow_card_bottom_removal"] or not config["prioritize_removing_bottom"]):
-        # Cannot remove bottom (impossible to use default format)
-        can_draw_sigils = False
+    if use_empty_bottom and not (config["allow_card_bottom_removal"] or config["prioritize_removing_bottom"]):
+        if not (default_format or config["prioritize_removing_bottom"]):
+            can_draw_sigils = False
     if can_draw_sigils or not (default_format or config["allow_base_game_display"]):
         can_draw_sigils = True
 
