@@ -118,7 +118,8 @@ class Sigil:
 
     def setToken(self, token: object):
         self.token = token
-        self.image = self.getImage()
+        self.image = None
+        self.short_image = None
 
     def get_description(self):
         return self.description.replace("TOKEN", str(self.token)) if self.token else self.description
