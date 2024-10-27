@@ -89,11 +89,12 @@ def get_sigil_and_trait_list(csv_dict, conduit):
     has_attack_sigil = False
     token_id = 0
 
-    def handle_sigil_or_trait(att_list, att_dict, tokens, tok_id):
+    def handle_sigil_or_trait(att_list, att_dict, tokens):
+        nonlocal token_id
         att_list.append(att_dict[sigil].copy())
         if att_list[-1].needs_token:
-            att_list[-1].setToken(tokens[tok_id % len(tokens)])
-            tok_id += 1
+            att_list[-1].setToken(tokens[token_id % len(tokens)])
+            token_id += 1
         return att_list[-1].is_attack_sigil
 
     sigil_list = []
@@ -102,11 +103,11 @@ def get_sigil_and_trait_list(csv_dict, conduit):
     try:
         for sigil in str_sigils:
             if sigil in sigils.TRAITS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
-                if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens, token_id):
+                if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens):
                     has_attack_sigil = True
 
             elif sigil in sigils.SIGILS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
-                if handle_sigil_or_trait(sigil_list, sigils.SIGILS, str_tokens, token_id):
+                if handle_sigil_or_trait(sigil_list, sigils.SIGILS, str_tokens):
                     has_attack_sigil = True
                 # Determine if a conduit indicator will need to be on the card because of a Conduit sigil.
                 if "Conduit" in sigil:
@@ -115,7 +116,7 @@ def get_sigil_and_trait_list(csv_dict, conduit):
 
         for sigil in str_traits:
             if sigil in sigils.TRAITS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
-                if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens, token_id):
+                if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens):
                     has_attack_sigil = True
 
         return sigil_list, trait_list, has_attack_sigil, conduit
