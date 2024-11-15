@@ -172,7 +172,7 @@ Spine Wyrm,Undead,Common,7 bones,3,2,"Sharp Quills, Spine Walker",,,Skeleton Rep
 Bone Devil,Undead,Common,9 bones,4,2,"Scavenger, Ensouled",,,Skeleton Demon,An infernal and sadistic creature.,Murigen
 Carrion Mouth,Undead,Common,10 bones,2,5,"Bloodsucker, Deathtrap",,,,"Locked away, and for good reason.",Pixel Profligate
 Rags,Undead,Common,2 energy,0,2,"Unburial, Haunter",,,Spectre,That one seems happier in death.,Murigen
-Lost Hewer,Undead,Common,3 energy,1,1,Shovel Latch,,,Spectre,"Despite everything, the labor continues.",Murigen
+Lost Hewer,Undead,Common,3 energy,1,1,LATCHER_Bone Digger,,,Spectre,"Despite everything, the labor continues.",Murigen
 Spook,Undead,Common,3 energy,0,2,"Burrower, Fracture, Bone Digger",,,Spectre,Boo!,Murigen
 Poltergeist,Undead,Common,4 energy,1,1,"Airborne, Warper",,,Spectre,An incorporeal menace.,"Desaft, Nevernamed"
 Tsukumogami,Undead,Common,4 energy,0,1,"Bone Digger, Haunter",,,Possessed,A tool that's lived for a century.,Murigen
@@ -184,7 +184,7 @@ Meatman,Undead,Common,3 blood,3,3,"Worthy Sacrifice, Haunter",,,Demon,An ever-im
 Mimic,Undead,Common,2 sapphires,0,2,"Fledgling, Gift Bearer",Carrion Mouth,,Possessed,Contains naught but secrets and fear.,Pixel Profligate
 The Smoke,Undead,Uncommon,1 bone,0,1,Bone King,,Smoke Trait,Spectre,The last wisp of a life snuffed out.,Pixel Profligate
 Skelemaster,Undead,Uncommon,5 bones,0,4,Recall the Broken,,Search Brittle,Skeleton,Has an affinity for all things brittle.,Murigen
-Gone,Undead,Uncommon,4 bones,0,1,Immortal Latch,,Gone Reminder,Spectre,,Desaft
+Gone,Undead,Uncommon,4 bones,0,1,LATCHER_Unkillable,,Gone Reminder,Spectre,,Desaft
 Pharaoh's Pets,Undead,Uncommon,6 bones,0,1,"Many Lives, Bloody Hemanation",,,Zombie,"An inseperable pair, fit for a king.",Pixel Profligate
 Summoner,Undead,Uncommon,6 bones,0,4,"Soul Raiser, Memoriam",,,Demon,Its companions won't leave them so soon.,Murigen
 Nachzehrer,Undead,Uncommon,7 bones,2,1,"Bloodsucker, Bloodlust, Scrounger",,,Zombie,Consuming whatever carrion it can find.,Pixel Profligate
@@ -228,7 +228,7 @@ Null Conduit,Tech,Side Deck,1 energy,0,2,,,Bloodless,Conduit,"Transfers power, b
 Sentry Drone,Tech,Side Deck,1 energy,0,1,Sentry,,Bloodless,Machine,Shoots anything that gets close.,Pixel Profligate
 Junk-0,Tech,Common,1 energy,0,1,Stinky,,,Android,It's odd for rust to smell this bad.,Pixel Profligate
 Automaton,Tech,Common,2 energy,1,1,,,,Bot,The most basic in function and form.,Pixel Profligate
-Boom-o-latcher,Tech,Common,2 energy,0,1,Explosive Latch,,,Latcher,Loading others with extreme explosives.,Pixel Profligate
+Boom-o-latcher,Tech,Common,2 energy,0,1,LATCHER_Detonator,,,Latcher,Loading others with extreme explosives.,Pixel Profligate
 Pop-up Blocker,Tech,Common,2 energy,0,1,"Burrower, Armored",,,,Your damage request has been denied.,Answearing Machine
 Draugear,Tech,Common,2 energy,0,1,Frozen Away,ExeSkeleton,Bloodless,Possessed Machine,"Cold, but not calculating.",Desaft
 Energy Bot,Tech,Common,2 energy,0,1,Battery Bearer,,,Bot,Full of energy that it cannot use.,Pixel Profligate
@@ -238,34 +238,34 @@ Sparkplug,Tech,Common,2 energy,0,2,Dynamo,,,Bot,A surprisingly helpful piece of 
 49er,Tech,Common,3 energy,1,1,Sprinter,,,Android,"On the move, searching for something.",Pixel Profligate
 Alarm Bot,Tech,Common,3 energy,2,1,Annoying,,,Bot,"Universally reviled, but always on time.",Pixel Profligate
 Bone Mill,Tech,Common,3 energy,0,2,Fossil Fuel,,,Machine,Also useful for producing glue.,Desaft
-Cable Latcher,Tech,Common,3 energy,1,2,Circuit Latch,,,Conduit Latcher,Just barely able to make a connection.,Murigen
+Cable Latcher,Tech,Common,3 energy,1,2,LATCH_Null Conduit,,,Conduit Latcher,Just barely able to make a connection.,Murigen
 Healing Conduit,Tech,Common,3 energy,0,2,Heal Conduit,,,Conduit,"An old model, but nonetheless effective.",Pixel Profligate
 Insectodrone,Tech,Common,3 energy,1,2,Airborne,,,Bot,The buzz of its flight is irritating.,Pixel Profligate
-Kind Cell,Tech,Common,3 energy,1,2,Generous when Powered,,,Cell,It might be feeling generous.,Pixel Profligate
+Kind Cell,Tech,Common,3 energy,1,2,CELL_Generosity Bearer,,,Cell,It might be feeling generous.,Pixel Profligate
 M34t Bot,Tech,Common,3 energy,0,2,Hearty Offering,,,Bot,A... curious bot indeed.,Pixel Profligate
-Marrow Cell,Tech,Common,3 energy,1,1,Digger when Powered,,,Cell,All bones obtained legally.*,Murigen
+Marrow Cell,Tech,Common,3 energy,1,1,CELL_Bone Digger,,,Cell,All bones obtained legally.*,Murigen
 Pipe Bomb,Tech,Common,3 energy,0,2,"Detonator, Rotting",,Pipe Bomb Trait,Machine,Good play. Unfortunately...,Answearing Machine
-Solar Cell,Tech,Common,3 energy,1,2,Power when Powered,,,Cell,"Making renewable energy, with no waste.",Murigen
+Solar Cell,Tech,Common,3 energy,1,2,CELL_Generator,,,Cell,"Making renewable energy, with no waste.",Murigen
 Scrapton,Tech,Common,3 energy,1,2,Made of Stone,,,Bot,"Heavy and sluggish, but extremely solid.",Murigen
-Guardian Cell,Tech,Common,4 energy,0,2,Breaker when Powered,,,,Protective of what fuels them.,NULL
-Shield Latcher,Tech,Common,3 energy,0,1,Shield Latch,,,Latcher,Protecting others better than itself.,Pixel Profligate
+Guardian Cell,Tech,Common,4 energy,0,2,CELL_Fuse Cover,,,,Protective of what fuels them.,NULL
+Shield Latcher,Tech,Common,3 energy,0,1,LATCH_Armored,,,Latcher,Protecting others better than itself.,Pixel Profligate
 Sniper Bot,Tech,Common,3 energy,1,1,Sniper,,,Android,"Easy to aim, easy to shoot.",Pixel Profligate
 50-nar,Tech,Common,3 energy,1,1,Takeoff Transformer,,,Mechabeast Vermin,Its irritating screeches are unbearable.,Pixel Profligate
 Qu177,Tech,Common,3 energy,1,2,Spiky Transformer,,,Mechabeast Vermin,An ornery little tin can.,Pixel Profligate
 Blood Conduit,Tech,Common,3 energy,0,2,Blood Conduit,,,Conduit,Even blood contains iron.,Murigen
-Tough Cell,Tech,Common,3 energy,1,1,Buff when Powered,,,Cell,Now you're playing with power.,Pixel Profligate
+Tough Cell,Tech,Common,3 energy,1,1,CELL_Empowered,,,Cell,Now you're playing with power.,Pixel Profligate
 Exeskeleton,Tech,Common,4 energy,2,2,Brittle,,,Skeleton Android,A frail and spooky mass of scrap metal.,Desaft
 Explode Bot,Tech,Common,4 energy,1,1,Detonator,,,Bot,A bump could set it off.,Pixel Profligate
 Factory Conduit,Tech,Common,4 energy,0,3,Spawn Conduit,,,Conduit,"Even in battle, the line does not stop.",Pixel Profligate
 Overcharger,Tech,Common,4 energy,2,2,"Brittle, Detonator, Death Surge",,,Skeleton Android,It could blow at any moment...,Desaft
 Shield Bot,Tech,Common,4 energy,1,1,Armored,,,Bot,"Surprisingly sturdy, given its size.",Pixel Profligate
-Splinter Cell,Tech,Common,4 energy,1,1,Tri-strike when Powered,,,Cell,We couldn't fit a fourth strike.,Pixel Profligate
+Splinter Cell,Tech,Common,4 energy,1,1,CELL_Trifurcated Strike,,,Cell,We couldn't fit a fourth strike.,Pixel Profligate
 Buff Conduit,Tech,Common,4 energy,0,2,Attack Conduit,,,Conduit,Sometimes they need a little extra juice.,Pixel Profligate
 Mox Memory Unit,Tech,Common,5 energy,0,4,Green Conduit,,,Mox Conduit,Emeralds are great for data tracking.,Pixel Profligate
 Mox Hardware Unit,Tech,Common,5 energy,0,4,Orange Conduit,,,Mox Conduit,Rubies make for great energy conductors.,Pixel Profligate
 Mox Processing Unit,Tech,Common,5 energy,0,4,Blue Conduit,,,Mox Conduit,Sapphires empower calculations.,Pixel Profligate
 Nucl34pbot,Tech,Common,5 energy,0,4,"Mighty Leap, Generator, Dynamo, Rotting",,,Leep Machine,It cannot handle its own energy.,"Murigen, Nevernamed"
-Skel-e-latcher,Tech,Common,5 energy,1,1,Toxic Latch,,Brittle Latcher Fix,Latcher,Full of neurotoxins.,Pixel Profligate
+Skel-e-latcher,Tech,Common,5 energy,1,1,LATCH_Brittle,,Brittle Latcher Fix,Latcher,Full of neurotoxins.,Pixel Profligate
 Thick Droid,Tech,Common,5 energy,1,3,Bastion,,,Android,It's just happy to be here.,Pixel Profligate
 K-9,Tech,Common,5 energy,1,2,Empowered Transformer,,,Mechabeast Canine,A vicious and twisted metal construct.,Pixel Profligate
 Paper Shredder,Tech,Common,5 energy,0,2,"Desecration, Sharp Quills",,,Machine,For complete and proper disposal.,
@@ -345,7 +345,7 @@ Magic Missile,Magick,Uncommon,2 shattered prisms,1,1,"Trifurcated Strike, Sniper
 Grand Astrologer,Magick,Rare,2 prisms,1,4,"Event Horizon, All-Sight",,Diamond Cost,Wizard,"They see all, as it is bare before them.",Pixel Profligate
 Flawless Clockwork,Magick,Rare,3 prisms,3,3,"Made of Stone, Bastion",,Diamond Cost,Mox Construct,An immaculate construct of perfect mox.,Pixel Profligate
 Brush Mage,Magick,Talking,1 prism,1,2,Overcoat,,,Mage,"""Lemme give that a new coat of paint!""",Pixel Profligate
-Alchemist,Magick,Common,1 emerald,0,2,"Transmogutate, Leading Arcane",,,Wizard,Recklessly practices transmutation.,Murigen
+Alchemist,Magick,Common,1 emerald,0,2,"Transmogutate, RAINBOW, Leader",,,Wizard,Recklessly practices transmutation.,Murigen
 Fabergé Frog,Magick,Common,1 emerald,1,1,"Sentry, Familiar",,,Amphibian,A small agent of small magicks.,Pixel Profligate
 Gloom Virtuoso,Magick,Common,1 emerald,1,1,Glooming Dust,,,Wizard,"Saddening, artistic talent put to war.",Murigen
 Green Mage,Magick,Common,1 emerald,X,2,,,Gem Power,Mage,They are powered directly by gems.,Pixel Profligate
@@ -356,10 +356,10 @@ Shade Soul,Magick,Common,1 emerald,0,1,Dust Gatherer,,,Mage Spectre,They collect
 Tenebrose Vessel,Magick,Common,1 emerald,0,2,Body of Dust,,,Aberration,A faithful provider of their own body.,Murigen
 Stim Mage,Magick,Common,1 emerald,0,2,Stimulate,,,Mage,Can push themselves beyond their limits.,Pixel Profligate
 Twilight Magus,Magick,Common,1 emerald,0,2,Sparkling Dust,,,Mage,Wells of power sleep in fragments.,syntaxevasion
-Corpsebloom Overgrowth,Magick,Common,2 emeralds,1,1,"Stinky, Evolving Arcane",Terror of Verdure,,Flower Aberration,,Murigen
+Corpsebloom Overgrowth,Magick,Common,2 emeralds,1,1,"Stinky, RAINBOW, Fledgling",Terror of Verdure,,Flower Aberration,,Murigen
 Druid,Magick,Common,1 emerald + 1 prism,0,3,Lifeblood,,,Mox Sage,Magic is the heart of nature.,Murigen
 Senior Sage,Magick,Common,1 emerald + 1 prism,1,3,Upbringing,,,Sage,Here to welcome the new generation.,Murigen
-Splitmind Maniac,Magick,Common,1 emerald + 1 prism,1,3,"Split Strike, Shadow Arcane",,,Aberration Wizard,Fractured and maddened by the unknown.,Murigen
+Splitmind Maniac,Magick,Common,1 emerald + 1 prism,1,3,"Split Strike, RAINBOW, Shadow Hand",,,Aberration Wizard,Fractured and maddened by the unknown.,Murigen
 Waxmelt Scrivener,Magick,Common,1 emerald + 1 prism,1,3,Amorphous,,,Corrupted Sage,Barely able to copy inscriptions.,Murigen
 Crystalline Carrier,Magick,Common,1 emerald + 2 prisms,X,3,Fragment Hoard,,Gem Power,Corrupted,Magick brought them to life.,Murigen
 Garish Geode,Magick,Common,1 shattered emerald,0,2,"Green Gem, Green Gem, Fragment Hoard",,Bloodless,Mox,A formation high in magickal power.,Murigen
@@ -374,7 +374,7 @@ Gloam Archmagus,Magick,Rare,1 emerald + 1 prism,1,2,Dooming Dust,,,Wizard,All th
 Skulking Valravn,Magick,Rare,1 shattered emerald + 1 shattered prism,0,5,"Dust Power, Dust Gatherer",,,Corrupted Avian,It feasts on broken relics.,Pixel Profligate
 Masked Gemhorror,Magick,Rare,2 emerald + 1 prism,X,2,"Bifurcated Strike, Dust Eater",,Gem Power,Aberration,"Frail, but powerful beyond belief.",Desaft
 Void Maw,Magick,Rare,2 prisms + 1 emerald,X,5,"Bloodsucker, Gem-locked",,,Aberration,The all-consuming terror from the abyss.,Omega Shambler
-Grand Transmuter,Magick,Rare,1 shattered emerald,1,2,"Green Gem, Prism Latch",,,Corrupted Mage,"Their greatest work, themselves.",Herilind
+Grand Transmuter,Magick,Rare,1 shattered emerald,1,2,"Green Gem, LATCH_Prism Gem",,,Corrupted Mage,"Their greatest work, themselves.",Herilind
 Umbral Puppeteer,Magick,Rare,1 shattered emerald,0,3,Illusion Dust,,,Wizard,Their servants are lucky to have them.,Herilind
 Puppet Mage,Magick,Talking,1 emerald,1,1,"Touch of Death, Soul Stealer",,Bloodless,Posessed Mage,,Pixel Profligate
 Shower Mage,Magick,Talking,1 emerald,1,2,Putrid Essence,,,Mage,"""Uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh...""",Murigen
@@ -391,19 +391,19 @@ Ruby Golem,Magick,Common,1 ruby,1,1,Ruby Heart,Ruby Mox,Bloodless,Construct,A hu
 Spike Mage,Magick,Common,1 ruby,0,2,Gem Instability,,,Mage,Some mox magicks can be very unstable.,Murigen
 Telekinetic,Magick,Common,1 ruby,1,1,Restructure,,,Mage,Summoned when a formation is broken.,Murigen
 Wisp,Magick,Common,1 ruby,0,1,Soul Strike,,,Mox Spectre,"Without form, but charged in its will.",
-Exalted Warden,Magick,Common,1 ruby + 1 prism,1,3,"Snag, Unstable Arcane",,,Wizard Knight,Stopping awry magicks is quite a feat.,Murigen
+Exalted Warden,Magick,Common,1 ruby + 1 prism,1,3,"Snag, RAINBOW, Gem Instability",,,Wizard Knight,Stopping awry magicks is quite a feat.,Murigen
 Iron Maiden,Magick,Common,1 ruby + 1 prism,1,1,"Armored, Sharp Quills",,,Machine,The price of insubordinance is pain.,Pixel Profligate
 Tamer Toad,Magick,Common,1 ruby + 1 prism,1,3,Truest Patron,,,Amphibian Sage,"The magic of beasts, the beast of magic.",Desaft
 Guardian Mage,Magick,Common,1 shattered ruby,1,1,Gem Guardian,,,Mage,Protective of what fuels their magic.,Pixel Profligate
 Mox Mage,Magick,Common,1 shattered ruby,1,2,"Orange Gem, Familiar",,,Mox Mage,A mox gained form... how curious.,Pixel Profligate
 Basilisk,Magick,Common,1 shattered ruby,1,6,"Familiar, Made of Stone, Bastion",,,Reptile,Don't look it in the eyes. It'll go away.,Murigen
-Spellsword Mercenary,Magick,Common,1 ruby + 1 prism,1,1,"Soul Strike, Enhanced Arcane",,,Posessed Sage,A proud mage's honor never dies.,Murigen
+Spellsword Mercenary,Magick,Common,1 ruby + 1 prism,1,1,"Soul Strike, RAINBOW, Enhanced",,,Posessed Sage,A proud mage's honor never dies.,Murigen
 Gem Banneret,Magick,Uncommon,1 ruby + 1 prism,0,2,"Leader, Annoying",,,Wizard Knight,Rallying the inanimate into a fervour.,Pixel Profligate
 Koi,Magick,Uncommon,1 ruby,0,1,"Leader, Waterborne, Familiar",,,Fish,No longer suited to live in the wild.,Murigen
-Enigmatic Paladin,Magick,Rare,1 ruby + 1 prism,2,2,Repulsing Arcane,,,Sage Knight,"An imprenetrable defense, when empowered.",Pixel Profligate
+Enigmatic Paladin,Magick,Rare,1 ruby + 1 prism,2,2,"Rainbow, Repulsive",,,Sage Knight,"An imprenetrable defense, when empowered.",Pixel Profligate
 Grand Machinist,Magick,Rare,2 rubies + 1 prism,0,3,"Gem Animator, Gem Instability, Gem Greed",,,Wizard,A paragon of gem augmentation.,Herilind
 Knight of Amber,Magick,Rare,1 ruby + 1 prism,1,4,"Made of Stone, Dust Barrier",,,Aberration Knight,"Sworn to protect, for all eternity.",Pixel Profligate
-Odious Sovereign,Magick,Rare,3 rubies,1,5,"Gem Greed, Leading Arcane",,,,Hungry for riches and power.,Murigen
+Odious Sovereign,Magick,Rare,3 rubies,1,5,"Gem Greed, RAINBOW, Leader",,,,Hungry for riches and power.,Murigen
 Pike Sage,Magick,Talking,1 ruby,1,1,Piercing,,Pike Sage Trait,Sage,"""Ideally, you will play me well.""",Pixel Profligate
 Mending Mage,Magick,Talking,1 ruby,1,3,Gem Repair,,,Mage,"""Doesn't matter!! I got another one!!!""",
 Ardent Intellectual,Magick,Common,1 sapphire,1,2,Arcane Echo,,,Sage,His success comes from copying others.,Murigen
@@ -418,7 +418,7 @@ Party Magician,Magick,Common,1 sapphire,1,1,Rabbit Hole,,,Mage,"Nothing spectacu
 Spell Counter,Magick,Common,1 sapphire,0,2,Cold Read,,,Wizard,Knowledge is power.,Murigen
 Soothsayer,Magick,Common,1 sapphire,1,2,Divination,,,Sage,"Can see the future, but not change it.",Pixel Profligate
 Summoner's Rift,Magick,Common,1 sapphire,0,2,Wild Reshape,,,Aberration,Only the fates know what will emerge.,Murigen
-Bauble Burglar,Magick,Common,1 shattered sapphire,1,1,"Side Hustle, Aiming Arcane",,,Outlaw,,Murigen
+Bauble Burglar,Magick,Common,1 shattered sapphire,1,1,"Side Hustle, RAINBOW, Sniper",,,Outlaw,,Murigen
 Heartflayer,Magick,Common,1 shattered sapphire,X,1,,,traeH Power,Corrupted Sage,Armed with perfect knowledge of its foe.,Murigen
 Fortune Teller,Magick,Common,1 sapphire + 1 prism,1,3,All-Sight,,,Wizard,Do you wish to know your fate?,Murigen
 Opulent Hoodlum,Magick,Common,1 sapphire + 1 prism,0,3,Rampager,,,Outlaw Mox Wizard,A purveyor of dark-market crystals.,Murigen
@@ -429,7 +429,7 @@ Gembound Ripper,Magick,Common,1 shattered sapphire + 1 shattered prism,4,4,Gem D
 Force Mage,Magick,Uncommon,1 sapphire,0,1,Repulsive,,,Mage,Repelling the greatest of assaults.,Pixel Profligate
 Pedantic Hag,Magick,Uncommon,1 shattered sapphire,1,1,"Corpse Eater, Purist, Gem Dependent",,,Corrupted Sage,Rambles on incorrect spell recitations.,Murigen
 Wildfrost Drake,Magick,Uncommon,1 shattered sapphire,2,4,"Familiar, Gem Dependent, Airborne",,,Reptile,"Adept, but troublesome to keep contained.",Muritgen
-Faterender,Magick,Rare,1 sapphire + 1 prism,1,1,"Snag, Purist, Lethal Arcane",,,Wizard,,Murigen
+Faterender,Magick,Rare,1 sapphire + 1 prism,1,1,"Snag, Purist, RAINBOW, Touch of Death",,,Wizard,,Murigen
 All-Seeing Oracle,Magick,Rare,1 sapphire + 2 prism,1,4,Prophecy,,,Sage,Fate has been subdued to their will.,Herilind
 Hourglass Sycophant,Magick,Rare,1 shattered sapphire,1,2,"Reaction Replica, Double Death, Arcane Echo",,,Wizard,An unmatched master in time.,Murigen
 Brogg Polliwog,Magick,Rare,1 sapphire + 1 prism,1,3,"Mighty Leap, Frog Friend",,,Amphibian Sage,A wondrous friend to all frog kind.,Pixel Profligate
@@ -437,10 +437,10 @@ Blue Archmagus,Magick,Rare,1 shattered sapphire,2,2,"Mental Fortitude, Gem Depen
 Lonely Wizard,Magick,Talking,1 sapphire,1,2,"Clinger, Stimulate",,,Wizard,"""YES! PLAY ME! STIMULATE ME!""",Pixel Profligate
 Thief Mage,Magick,Talking,1 sapphire,0,3,"Looter, Side Hustle",,,Outlaw Mage,"""So... a little help?""",Murigen
 Bixhound,Magick,Common,1 emerald + 1 ruby,2,3,"Guardian, Familiar",,,Canine Hound,A very loyal magickal companion.,Pixel Profligate
-Chimera Warden,Magick,Common,1 emerald + 1 ruby,1,2,"Bloodlust, Animated Arcane",,,Knight,"A hybrid, loyal and fierce to a fault.","Yoyo, Bluemem"
-Skyborne Soldier,Magick,Common,1 ruby + 1 sapphire,1,2,"Airborne, Sprinter, Enhanced Arcane",,,Knight,The utmost dedication to duty.,Pixel Profligate
+Chimera Warden,Magick,Common,1 emerald + 1 ruby,1,2,"Bloodlust, RAINBOW, Gem Animator",,,Knight,"A hybrid, loyal and fierce to a fault.","Yoyo, Bluemem"
+Skyborne Soldier,Magick,Common,1 ruby + 1 sapphire,1,2,"Airborne, Sprinter, RAINBOW, Enhanced",,,Knight,The utmost dedication to duty.,Pixel Profligate
 Maniacal Martialist,Magick,Common,1 ruby + 1 sapphire,1,2,"Evasion, Bloodlust",,,Outlaw Sage,The frenzy of a newfound might.,"Desaft, Murigen"
-Mysterious Merchant,Magick,Common,1 emerald + 1 sapphire,0,4,"Trinket Bearer, Enhanced Arcane",,,,Browse his wares for oddities.,Murigen
+Mysterious Merchant,Magick,Common,1 emerald + 1 sapphire,0,4,"Trinket Bearer, RAINBOW, Enhanced",,,,Browse his wares for oddities.,Murigen
 Baleful Polymorph,Magick,Common,1 emerald + 1 ruby,0,1,Polymorph,,,Corrupted Mage,All succumb to transformation's chaos.,
 Book Burner,Magick,Rare,1 emerald + 1 sapphire,0,4,Firey Rummage,,,,Revealed secrets are theirs to keep.,Pixel Profligate
 Goranj's Mox,Magick,Rare,1 shattered prism,0,2,"Green Gem, Orange Gem",,Bloodless,Mox,Created by Goranj to strengthen them.,Desaft

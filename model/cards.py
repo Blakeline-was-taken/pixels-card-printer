@@ -22,15 +22,44 @@ def get_bottom_outline_y(tier, temple, bloodless):
         logging.error(f"Error: Tier not recognized : {tier}")
 
 
+def get_latch_image(sigil_img, temple):
+    if sigil_img.height < 150:
+        patch_image = costs.get_temple_variant(Image.open("assets/cardbacks/LATCH.png"), temple)
+    elif sigil_img.height < 190:
+        patch_image = costs.get_temple_variant(Image.open("assets/cardbacks/LATCH3.png"), temple)
+    else:
+        patch_image = costs.get_temple_variant(Image.open("assets/cardbacks/LATCH4.png"), temple)
+    patch_image.paste(sigil_img, (100, (patch_image.height - sigil_img.height) // 2 + 2), sigil_img)
+    return patch_image
+
+
+def get_cell_image(sigil_img, temple):
+    if sigil_img.height < 150:
+        patch_image = costs.get_temple_variant(Image.open("assets/cardbacks/CELL.png"), temple)
+    elif sigil_img.height < 190:
+        patch_image = costs.get_temple_variant(Image.open("assets/cardbacks/CELL3.png"), temple)
+    else:
+        patch_image = costs.get_temple_variant(Image.open("assets/cardbacks/CELL4.png"), temple)
+    patch_image.paste(sigil_img, (120, (patch_image.height - sigil_img.height) // 2 + 3), sigil_img)
+    return patch_image
+
 def format_evaluation(sigil_list, trait_list, sigil_y, image, tier, temple, bloodless, default_format: bool = True):
     can_draw_sigils = True
     # Add the combined height of all the sigils.
     for sigil in sigil_list:
-        sigil_img = sigil.getImage() if default_format else sigil.getImage(shortened_format=True)
-        # If the sigil height overflows the card, we can't draw the sigils.
-        if sigil_y + sigil_img.height > image.height:
-            can_draw_sigils = False
-        sigil_y += sigil_img.height + 5
+        if sigil == "RAINBOW":
+            if sigil_y + 70 > image.height:
+                can_draw_sigils = False
+            sigil_y += 75 + (10 - sigil_y % 10)
+        else:
+            sigil_img = sigil.getImage() if default_format else sigil.getImage(shortened_format=True)
+            if sigil.is_latcher or sigil.is_cell:
+                sigil_img = get_latch_image(sigil_img, temple) if sigil.is_latcher else get_cell_image(sigil_img, temple)
+                sigil_y += 10 - sigil_y % 10
+            # If the sigil height overflows the card, we can't draw the sigils.
+            if sigil_y + sigil_img.height > image.height:
+                can_draw_sigils = False
+            sigil_y += sigil_img.height + 5
     trait_height = 0
     if len(trait_list) > 0:
         traitlines = Image.open(f"assets/cardbacks/Traitlines.png")
@@ -91,7 +120,10 @@ def get_sigil_and_trait_list(csv_dict, conduit):
 
     def handle_sigil_or_trait(att_list, att_dict, tokens):
         nonlocal token_id
-        att_list.append(att_dict[sigil].copy())
+        elt = att_dict[sigil].copy()
+        elt.is_latcher = is_latcher
+        elt.is_cell = is_cell
+        att_list.append(elt)
         if att_list[-1].needs_token:
             att_list[-1].setToken(tokens[token_id % len(tokens)])
             token_id += 1
@@ -102,7 +134,13 @@ def get_sigil_and_trait_list(csv_dict, conduit):
 
     try:
         for sigil in str_sigils:
-            if sigil in sigils.TRAITS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
+            is_latcher = "LATCHER" in sigil
+            is_cell = "CELL" in sigil
+            if "LATCHER" in sigil or "CELL" in sigil:
+                sigil = sigil.split("_")[1]
+            if sigil == "RAINBOW":
+                sigil_list.append("RAINBOW")
+            elif sigil in sigils.TRAITS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
                 if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens):
                     has_attack_sigil = True
 
@@ -115,6 +153,7 @@ def get_sigil_and_trait_list(csv_dict, conduit):
                         conduit = sigil.translate(str.maketrans("", "", " ',-!?"))
 
         for sigil in str_traits:
+            is_latcher, is_cell = False, False
             if sigil in sigils.TRAITS and not (sigil == "Bloodless" and not config["show_bloodless_text"]):
                 if handle_sigil_or_trait(trait_list, sigils.TRAITS, str_tokens):
                     has_attack_sigil = True
@@ -222,8 +261,21 @@ def draw_sigils(image, temple, tier, file_tier, sac, bloodless,
 
         # Draw each sigil on the card
         for sigil in sigil_list:
-            sigil_img = sigil.getImage() if default_format else sigil.getImage(shortened_format=True)
-            image = paste_sigil(image, sigil_img, (config['sigil_left_border'], sigil_y))
+            if sigil == "RAINBOW":
+                sigil_y += 10 - sigil_y % 10
+                rainbow_image = Image.open("assets/cardbacks/RAINBOW.png").convert("RGBA")
+                sigil_img = costs.get_temple_variant(rainbow_image, temple)
+                image = paste_sigil(image, sigil_img, (130, sigil_y))
+                sigil_y += 5
+            else:
+                sigil_img = sigil.getImage() if default_format else sigil.getImage(shortened_format=True)
+                if sigil.is_latcher or sigil.is_cell:
+                    sigil_img = get_latch_image(sigil_img, temple) if sigil.is_latcher else get_cell_image(sigil_img, temple)
+                    sigil_y += 10 - sigil_y % 10
+                    sigil_x = 20 if sigil.is_latcher else 0
+                else:
+                    sigil_x = config['sigil_left_border']
+                image = paste_sigil(image, sigil_img, (sigil_x, sigil_y))
             sigil_y += sigil_img.height + 5
 
         if len(trait_list) > 0:
